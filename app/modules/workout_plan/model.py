@@ -1,20 +1,17 @@
-from sqlalchemy import Column, Integer, String, Text, ForeignKey, DateTime
+from sqlalchemy import Column, String, Boolean, DateTime, ForeignKey
 from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func
-from app.database import Base
-
+from app.db.database import Base
 
 class WorkoutPlan(Base):
-    __tablename__ = "workout_plans"
+    __tablename__ = "workout_plan"
 
-    id = Column(Integer, primary_key=True, index=True)
-    titulo = Column(String(150), nullable=False)
-    descricao = Column(Text, nullable=True)
-    nivel = Column(String(50), nullable=False)  # iniciante, intermediário, avançado
-    duracao_semanas = Column(Integer, nullable=False)
-    criado_em = Column(DateTime(timezone=True), server_default=func.now())
-    atualizado_em = Column(DateTime(timezone=True), onupdate=func.now())
+    id        = Column(String, primary_key=True)
+    name      = Column(String, nullable=False)
+    userId    = Column(String, ForeignKey("user.id", ondelete="CASCADE"), nullable=False)
+    isActive  = Column(Boolean, default=True)
+    createdAt = Column(DateTime(timezone=True), server_default=func.now())
+    updateAt  = Column(DateTime(timezone=True), onupdate=func.now())
 
-    # Chave estrangeira ligando ao usuário criador
-    user_id = Column(Integer, ForeignKey("user.id"), nullable=False)
-    user = relationship("User", back_populates="workout_plans")
+    user        = relationship("User", back_populates="workout_plan")
+    workoutDays = relationship("WorkoutDay", back_populates="workout_plan", cascade="all, delete")

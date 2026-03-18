@@ -4,7 +4,7 @@ from sqlalchemy.sql import func
 from app.db.database import Base
 
 class User(Base):
-    __tablename__ = "user"
+    __tablename__ = "users"
 
     id                  = Column(String, primary_key=True)
     name                = Column(String, nullable=False)
@@ -19,6 +19,6 @@ class User(Base):
     bodyFatPercentage   = Column(Integer, nullable=True)  # 100 = 100%
 
     # Relacionamentos
-    workoutPlans = relationship("WorkoutPlan", back_populates="user", cascade="all, delete")
-    sessions     = relationship("UserSession", back_populates="user", cascade="all, delete")
-    accounts     = relationship("Account", back_populates="user", cascade="all, delete")
+    workoutPlans = relationship("WorkoutPlan", back_populates="users", cascade="all, delete")
+    sessions     = relationship("UserSession", back_populates="users", cascade="all, delete")
+    accounts     = relationship("Account", back_populates="users", cascade="all, delete")

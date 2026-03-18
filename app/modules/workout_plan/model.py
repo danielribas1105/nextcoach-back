@@ -13,5 +13,5 @@ class WorkoutPlan(Base):
     createdAt = Column(DateTime(timezone=True), server_default=func.now())
     updateAt  = Column(DateTime(timezone=True), onupdate=func.now())
 
-    user        = relationship("User", back_populates="workout_plan")
-    workoutDays = relationship("WorkoutDay", back_populates="workout_plan", cascade="all, delete")
+    user        = relationship("User", back_populates="workoutPlans")
+    workoutDays = relationship("WorkoutDay", back_populates="workoutPlan", cascade="all, delete")

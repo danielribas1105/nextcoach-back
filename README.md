@@ -40,3 +40,11 @@ pip install -r requirements.txt
 ## ▶️ Rodando o servidor
 
 uvicorn app.main:app --reload
+
+## 🏦 Criando tabelas e rodando a primeira migração
+
+alembic init alembic
+
+alembic revision --autogenerate -m "initial database structure"
+
+alembic upgrade head

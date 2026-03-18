@@ -14,11 +14,11 @@ class WeekDay(str, enum.Enum):
    SATURDAY  = "SATURDAY"
 
 class WorkoutDay(Base):
-   __tablename__ = "WorkoutDay"
+   __tablename__ = "workout_day"
 
    id                         = Column(String, primary_key=True)
    name                       = Column(String, nullable=False)
-   workoutPlanId              = Column(String, ForeignKey("WorkoutPlan.id", ondelete="CASCADE"), nullable=False)
+   workoutPlanId              = Column(String, ForeignKey("workout_plan.id", ondelete="CASCADE"), nullable=False)
    isRest                     = Column(Boolean, default=False)
    coverImageUrl              = Column(String, nullable=True)
    weekDay                    = Column(Enum(WeekDay), nullable=False)

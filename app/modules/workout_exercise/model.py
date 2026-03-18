@@ -4,12 +4,12 @@ from sqlalchemy.sql import func
 from app.db.database import Base
 
 class WorkoutExercise(Base):
-   __tablename__ = "WorkoutExercise"
+   __tablename__ = "workout_exercise"
 
    id                = Column(String, primary_key=True)  # ulid
    name              = Column(String, nullable=False)
    order             = Column(Integer, nullable=False)
-   workoutDayId      = Column(String, ForeignKey("WorkoutDay.id", ondelete="CASCADE"), nullable=False)
+   workoutDayId      = Column(String, ForeignKey("workout_day.id", ondelete="CASCADE"), nullable=False)
    sets              = Column(Integer, nullable=False)
    reps              = Column(Integer, nullable=False)
    restTimeInSeconds = Column(Integer, nullable=False)

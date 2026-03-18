@@ -8,7 +8,7 @@ class WorkoutPlan(Base):
 
     id        = Column(String, primary_key=True)
     name      = Column(String, nullable=False)
-    userId    = Column(String, ForeignKey("user.id", ondelete="CASCADE"), nullable=False)
+    userId    = Column(String, ForeignKey("users.id", ondelete="CASCADE"), nullable=False)
     isActive  = Column(Boolean, default=True)
     createdAt = Column(DateTime(timezone=True), server_default=func.now())
     updateAt  = Column(DateTime(timezone=True), onupdate=func.now())

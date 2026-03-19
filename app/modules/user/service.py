@@ -3,7 +3,6 @@ from app.modules.user.model import User
 from app.modules.user.schema import UserCreate, UserUpdate
 from app.core.auth import hash_senha
 from fastapi import HTTPException
-import uuid
 
 
 def criar_usuario(db: Session, dados: UserCreate) -> User:
@@ -11,7 +10,6 @@ def criar_usuario(db: Session, dados: UserCreate) -> User:
         raise HTTPException(status_code=400, detail="E-mail já cadastrado")
 
     usuario = User(
-        id=dados.id if dados.id else str(uuid.uuid4()),
         name=dados.name,
         email=dados.email,
         senhaHash=hash_senha(dados.senha),  # salva o hash da senha

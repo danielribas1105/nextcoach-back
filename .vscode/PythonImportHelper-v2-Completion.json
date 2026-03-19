@@ -1417,6 +1417,15 @@
         "documentation": {}
     },
     {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
         "label": "get_usuario_atual",
         "importPath": "app.core.dependencies",
         "description": "app.core.dependencies",
@@ -1510,15 +1519,6 @@
         "description": "pydantic",
         "isExtraImport": true,
         "detail": "pydantic",
-        "documentation": {}
-    },
-    {
-        "label": "uuid",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "uuid",
-        "description": "uuid",
-        "detail": "uuid",
         "documentation": {}
     },
     {
@@ -2046,7 +2046,7 @@
         "kind": 6,
         "importPath": "app.modules.user.model",
         "description": "app.modules.user.model",
-        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id = Column(String, primary_key=True)\n    name = Column(String, nullable=False)\n    email = Column(String, unique=True, nullable=False, index=True)\n    senhaHash = Column(\n        String, nullable=True\n    )  # nullable pois login social não tem senha\n    emailVerified = Column(Boolean, default=False)\n    image = Column(String, nullable=True)",
+        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id = Column(String, primary_key=True, default=lambda: str(uuid.uuid4()))\n    name = Column(String, nullable=False)\n    email = Column(String, unique=True, nullable=False, index=True)\n    senhaHash = Column(String, nullable=True)\n    emailVerified = Column(Boolean, default=False)\n    image = Column(String, nullable=True)\n    createdAt = Column(DateTime(timezone=True), server_default=func.now())\n    updatedAt = Column(DateTime(timezone=True), onupdate=func.now())",
         "detail": "app.modules.user.model",
         "documentation": {}
     },
@@ -2100,7 +2100,7 @@
         "kind": 6,
         "importPath": "app.modules.user.schema",
         "description": "app.modules.user.schema",
-        "peekOfCode": "class UserCreate(BaseModel):\n    id: str\n    name: str\n    email: EmailStr\n    senha: str\n    image: Optional[str] = None\n    weightInGrams: Optional[int] = None\n    heightInCentimeters: Optional[int] = None\n    age: Optional[int] = None\n    bodyFatPercentage: Optional[int] = None",
+        "peekOfCode": "class UserCreate(BaseModel):\n    name: str\n    email: EmailStr\n    senha: str\n    image: Optional[str] = None\n    weightInGrams: Optional[int] = None\n    heightInCentimeters: Optional[int] = None\n    age: Optional[int] = None\n    bodyFatPercentage: Optional[int] = None\nclass UserUpdate(BaseModel):",
         "detail": "app.modules.user.schema",
         "documentation": {}
     },
@@ -2145,7 +2145,7 @@
         "kind": 2,
         "importPath": "app.modules.user.service",
         "description": "app.modules.user.service",
-        "peekOfCode": "def criar_usuario(db: Session, dados: UserCreate) -> User:\n    if db.query(User).filter(User.email == dados.email).first():\n        raise HTTPException(status_code=400, detail=\"E-mail já cadastrado\")\n    usuario = User(\n        id=dados.id if dados.id else str(uuid.uuid4()),\n        name=dados.name,\n        email=dados.email,\n        senhaHash=hash_senha(dados.senha),  # salva o hash da senha\n        image=dados.image,\n        weightInGrams=dados.weightInGrams,",
+        "peekOfCode": "def criar_usuario(db: Session, dados: UserCreate) -> User:\n    if db.query(User).filter(User.email == dados.email).first():\n        raise HTTPException(status_code=400, detail=\"E-mail já cadastrado\")\n    usuario = User(\n        name=dados.name,\n        email=dados.email,\n        senhaHash=hash_senha(dados.senha),  # salva o hash da senha\n        image=dados.image,\n        weightInGrams=dados.weightInGrams,\n        heightInCentimeters=dados.heightInCentimeters,",
         "detail": "app.modules.user.service",
         "documentation": {}
     },
@@ -2460,7 +2460,7 @@
         "kind": 6,
         "importPath": "app.modules.workout_plan.model",
         "description": "app.modules.workout_plan.model",
-        "peekOfCode": "class WorkoutPlan(Base):\n    __tablename__ = \"workout_plan\"\n    id        = Column(String, primary_key=True)\n    name      = Column(String, nullable=False)\n    userId    = Column(String, ForeignKey(\"users.id\", ondelete=\"CASCADE\"), nullable=False)\n    isActive  = Column(Boolean, default=True)\n    createdAt = Column(DateTime(timezone=True), server_default=func.now())\n    updateAt  = Column(DateTime(timezone=True), onupdate=func.now())\n    user        = relationship(\"User\", back_populates=\"workoutPlans\")\n    workoutDays = relationship(\"WorkoutDay\", back_populates=\"workoutPlan\", cascade=\"all, delete\")",
+        "peekOfCode": "class WorkoutPlan(Base):\n    __tablename__ = \"workout_plan\"\n    id = Column(String, primary_key=True, default=lambda: str(uuid.uuid4()))\n    name = Column(String, nullable=False)\n    userId = Column(String, ForeignKey(\"users.id\", ondelete=\"CASCADE\"), nullable=False)\n    isActive = Column(Boolean, default=True)\n    createdAt = Column(DateTime(timezone=True), server_default=func.now())\n    updateAt = Column(DateTime(timezone=True), onupdate=func.now())\n    user = relationship(\"User\", back_populates=\"workoutPlans\")\n    workoutDays = relationship(",
         "detail": "app.modules.workout_plan.model",
         "documentation": {}
     },
@@ -2523,7 +2523,7 @@
         "kind": 6,
         "importPath": "app.modules.workout_plan.schema",
         "description": "app.modules.workout_plan.schema",
-        "peekOfCode": "class WorkoutPlanCreate(BaseModel):\n    id: str\n    name: str\nclass WorkoutPlanUpdate(BaseModel):\n    name: Optional[str] = None\n    isActive: Optional[bool] = None\nclass WorkoutPlanResponse(BaseModel):\n    id: str\n    name: str\n    userId: str",
+        "peekOfCode": "class WorkoutPlanCreate(BaseModel):\n    name: str\nclass WorkoutPlanUpdate(BaseModel):\n    name: Optional[str] = None\n    isActive: Optional[bool] = None\nclass WorkoutPlanResponse(BaseModel):\n    id: str\n    name: str\n    userId: str\n    isActive: bool",
         "detail": "app.modules.workout_plan.schema",
         "documentation": {}
     },
@@ -2550,7 +2550,7 @@
         "kind": 2,
         "importPath": "app.modules.workout_plan.service",
         "description": "app.modules.workout_plan.service",
-        "peekOfCode": "def criar(db: Session, dados: WorkoutPlanCreate, user_id: str) -> WorkoutPlan:\n    plano = WorkoutPlan(**dados.model_dump(), userId=user_id)\n    db.add(plano)\n    db.commit()\n    db.refresh(plano)\n    return plano\ndef listar(db: Session, user_id: str) -> list[WorkoutPlan]:\n    return db.query(WorkoutPlan).filter(WorkoutPlan.userId == user_id).all()\ndef buscar(db: Session, plano_id: str, user_id: str) -> WorkoutPlan:\n    plano = db.query(WorkoutPlan).filter(",
+        "peekOfCode": "def criar(db: Session, dados: WorkoutPlanCreate, user_id: str) -> WorkoutPlan:\n    plano = WorkoutPlan(**dados.model_dump(), userId=user_id)\n    db.add(plano)\n    db.commit()\n    db.refresh(plano)\n    return plano\ndef listar(db: Session, user_id: str) -> list[WorkoutPlan]:\n    return db.query(WorkoutPlan).filter(WorkoutPlan.userId == user_id).all()\ndef buscar(db: Session, plano_id: str, user_id: str) -> WorkoutPlan:\n    plano = (",
         "detail": "app.modules.workout_plan.service",
         "documentation": {}
     },
@@ -2559,7 +2559,7 @@
         "kind": 2,
         "importPath": "app.modules.workout_plan.service",
         "description": "app.modules.workout_plan.service",
-        "peekOfCode": "def listar(db: Session, user_id: str) -> list[WorkoutPlan]:\n    return db.query(WorkoutPlan).filter(WorkoutPlan.userId == user_id).all()\ndef buscar(db: Session, plano_id: str, user_id: str) -> WorkoutPlan:\n    plano = db.query(WorkoutPlan).filter(\n        WorkoutPlan.id == plano_id,\n        WorkoutPlan.userId == user_id\n    ).first()\n    if not plano:\n        raise HTTPException(status_code=404, detail=\"Plano não encontrado\")\n    return plano",
+        "peekOfCode": "def listar(db: Session, user_id: str) -> list[WorkoutPlan]:\n    return db.query(WorkoutPlan).filter(WorkoutPlan.userId == user_id).all()\ndef buscar(db: Session, plano_id: str, user_id: str) -> WorkoutPlan:\n    plano = (\n        db.query(WorkoutPlan)\n        .filter(WorkoutPlan.id == plano_id, WorkoutPlan.userId == user_id)\n        .first()\n    )\n    if not plano:\n        raise HTTPException(status_code=404, detail=\"Plano não encontrado\")",
         "detail": "app.modules.workout_plan.service",
         "documentation": {}
     },
@@ -2568,7 +2568,7 @@
         "kind": 2,
         "importPath": "app.modules.workout_plan.service",
         "description": "app.modules.workout_plan.service",
-        "peekOfCode": "def buscar(db: Session, plano_id: str, user_id: str) -> WorkoutPlan:\n    plano = db.query(WorkoutPlan).filter(\n        WorkoutPlan.id == plano_id,\n        WorkoutPlan.userId == user_id\n    ).first()\n    if not plano:\n        raise HTTPException(status_code=404, detail=\"Plano não encontrado\")\n    return plano\ndef atualizar(db: Session, plano_id: str, dados: WorkoutPlanUpdate, user_id: str) -> WorkoutPlan:\n    plano = buscar(db, plano_id, user_id)",
+        "peekOfCode": "def buscar(db: Session, plano_id: str, user_id: str) -> WorkoutPlan:\n    plano = (\n        db.query(WorkoutPlan)\n        .filter(WorkoutPlan.id == plano_id, WorkoutPlan.userId == user_id)\n        .first()\n    )\n    if not plano:\n        raise HTTPException(status_code=404, detail=\"Plano não encontrado\")\n    return plano\ndef atualizar(",
         "detail": "app.modules.workout_plan.service",
         "documentation": {}
     },
@@ -2577,7 +2577,7 @@
         "kind": 2,
         "importPath": "app.modules.workout_plan.service",
         "description": "app.modules.workout_plan.service",
-        "peekOfCode": "def atualizar(db: Session, plano_id: str, dados: WorkoutPlanUpdate, user_id: str) -> WorkoutPlan:\n    plano = buscar(db, plano_id, user_id)\n    for campo, valor in dados.model_dump(exclude_unset=True).items():\n        setattr(plano, campo, valor)\n    db.commit()\n    db.refresh(plano)\n    return plano\ndef deletar(db: Session, plano_id: str, user_id: str) -> None:\n    plano = buscar(db, plano_id, user_id)\n    db.delete(plano)",
+        "peekOfCode": "def atualizar(\n    db: Session, plano_id: str, dados: WorkoutPlanUpdate, user_id: str\n) -> WorkoutPlan:\n    plano = buscar(db, plano_id, user_id)\n    for campo, valor in dados.model_dump(exclude_unset=True).items():\n        setattr(plano, campo, valor)\n    db.commit()\n    db.refresh(plano)\n    return plano\ndef deletar(db: Session, plano_id: str, user_id: str) -> None:",
         "detail": "app.modules.workout_plan.service",
         "documentation": {}
     },

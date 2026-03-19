@@ -5,7 +5,6 @@ from typing import Optional
 
 # Dados para criar um usuário (entrada)
 class UserCreate(BaseModel):
-    id: str
     name: str
     email: EmailStr
     senha: str

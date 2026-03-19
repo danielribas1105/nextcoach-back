@@ -2,13 +2,15 @@ from pydantic import BaseModel
 from datetime import datetime
 from typing import Optional
 
+
 class WorkoutPlanCreate(BaseModel):
-    id: str
     name: str
+
 
 class WorkoutPlanUpdate(BaseModel):
     name: Optional[str] = None
     isActive: Optional[bool] = None
+
 
 class WorkoutPlanResponse(BaseModel):
     id: str

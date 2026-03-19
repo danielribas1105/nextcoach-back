@@ -3,7 +3,6 @@ from datetime import datetime
 from typing import Optional
 
 class WorkoutExerciseCreate(BaseModel):
-   id: str  # ulid gerado no cliente ou no service
    name: str
    order: int
    sets: int

@@ -2,7 +2,6 @@ from pydantic import BaseModel
 from datetime import datetime
 
 class WorkoutSessionCreate(BaseModel):
-   id: str
    startedAt: datetime
    completedAt: datetime
 

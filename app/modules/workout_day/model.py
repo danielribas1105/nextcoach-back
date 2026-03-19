@@ -1,4 +1,5 @@
 import enum
+import uuid
 from sqlalchemy import Column, String, Boolean, DateTime, Integer, ForeignKey, Enum
 from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func
@@ -16,7 +17,7 @@ class WeekDay(str, enum.Enum):
 class WorkoutDay(Base):
    __tablename__ = "workout_day"
 
-   id                         = Column(String, primary_key=True)
+   id                         = Column(String, primary_key=True, default=lambda: str(uuid.uuid4()))
    name                       = Column(String, nullable=False)
    workoutPlanId              = Column(String, ForeignKey("workout_plan.id", ondelete="CASCADE"), nullable=False)
    isRest                     = Column(Boolean, default=False)

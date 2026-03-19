@@ -4,7 +4,6 @@ from typing import Optional
 from app.modules.workout_day.model import WeekDay
 
 class WorkoutDayCreate(BaseModel):
-   id: str
    name: str
    weekDay: WeekDay
    estimatedDurationInSeconds: int

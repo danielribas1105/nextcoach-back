@@ -1,4 +1,14 @@
 from fastapi import FastAPI
+
+# Importa todos os models para o SQLAlchemy registrar
+from app.modules.user.model import User
+from app.modules.user_session.model import UserSession
+from app.modules.account.model import Account
+from app.modules.workout_plan.model import WorkoutPlan
+from app.modules.workout_day.model import WorkoutDay
+from app.modules.workout_exercise.model import WorkoutExercise
+from app.modules.workout_session.model import WorkoutSession
+
 from app.modules.user.route import router as user_router
 from app.modules.workout_plan.route import router as workout_plan_router
 from app.modules.workout_day.route import router as workout_day_router

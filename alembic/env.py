@@ -10,6 +10,8 @@ from app.config import settings
 
 # Importa todos os models
 from app.modules.user.model import User
+from app.modules.user_session.model import UserSession
+from app.modules.account.model import Account
 from app.modules.workout_plan.model import WorkoutPlan
 from app.modules.workout_day.model import WorkoutDay
 from app.modules.workout_exercise.model import WorkoutExercise

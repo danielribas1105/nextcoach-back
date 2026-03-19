@@ -1,5 +1,158 @@
 [
     {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "engine_from_config",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "engine_from_config",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "create_engine",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -9,14 +162,6 @@
     },
     {
         "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -48,7 +193,7 @@
         "documentation": {}
     },
     {
-        "label": "Column",
+        "label": "Integer",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -56,7 +201,7 @@
         "documentation": {}
     },
     {
-        "label": "Integer",
+        "label": "Column",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -72,15 +217,7 @@
         "documentation": {}
     },
     {
-        "label": "Text",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "ForeignKey",
+        "label": "Boolean",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -96,59 +233,283 @@
         "documentation": {}
     },
     {
-        "label": "declarative_base",
-        "importPath": "sqlalchemy.ext.declarative",
-        "description": "sqlalchemy.ext.declarative",
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "sqlalchemy.ext.declarative",
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
-        "label": "sessionmaker",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "Enum",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
-        "label": "relationship",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "sqlalchemy",
         "documentation": {}
     },
     {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
         "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "app.db.database",
+        "description": "app.db.database",
+        "isExtraImport": true,
+        "detail": "app.db.database",
         "documentation": {}
     },
     {
@@ -168,211 +529,203 @@
         "documentation": {}
     },
     {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "settings",
+        "importPath": "app.config",
+        "description": "app.config",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "app.config",
         "documentation": {}
     },
     {
-        "label": "Depends",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "settings",
+        "importPath": "app.config",
+        "description": "app.config",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "app.config",
         "documentation": {}
     },
     {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "settings",
+        "importPath": "app.config",
+        "description": "app.config",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "app.config",
         "documentation": {}
     },
     {
-        "label": "status",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "User",
+        "importPath": "app.modules.user.model",
+        "description": "app.modules.user.model",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "app.modules.user.model",
         "documentation": {}
     },
     {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "User",
+        "importPath": "app.modules.user.model",
+        "description": "app.modules.user.model",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "app.modules.user.model",
         "documentation": {}
     },
     {
-        "label": "Depends",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "User",
+        "importPath": "app.modules.user.model",
+        "description": "app.modules.user.model",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "app.modules.user.model",
         "documentation": {}
     },
     {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "User",
+        "importPath": "app.modules.user.model",
+        "description": "app.modules.user.model",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "app.modules.user.model",
         "documentation": {}
     },
     {
-        "label": "Depends",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "User",
+        "importPath": "app.modules.user.model",
+        "description": "app.modules.user.model",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "app.modules.user.model",
         "documentation": {}
     },
     {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "User",
+        "importPath": "app.modules.user.model",
+        "description": "app.modules.user.model",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "app.modules.user.model",
         "documentation": {}
     },
     {
-        "label": "status",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "User",
+        "importPath": "app.modules.user.model",
+        "description": "app.modules.user.model",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "app.modules.user.model",
         "documentation": {}
     },
     {
-        "label": "FastAPI",
-        "importPath": "fastapi",
-        "description": "fastapi",
+        "label": "User",
+        "importPath": "app.modules.user.model",
+        "description": "app.modules.user.model",
         "isExtraImport": true,
-        "detail": "fastapi",
+        "detail": "app.modules.user.model",
         "documentation": {}
     },
     {
-        "label": "get_db",
-        "importPath": "app.database",
-        "description": "app.database",
+        "label": "User",
+        "importPath": "app.modules.user.model",
+        "description": "app.modules.user.model",
         "isExtraImport": true,
-        "detail": "app.database",
+        "detail": "app.modules.user.model",
         "documentation": {}
     },
     {
-        "label": "Base",
-        "importPath": "app.database",
-        "description": "app.database",
+        "label": "WorkoutPlan",
+        "importPath": "app.modules.workout_plan.model",
+        "description": "app.modules.workout_plan.model",
         "isExtraImport": true,
-        "detail": "app.database",
+        "detail": "app.modules.workout_plan.model",
         "documentation": {}
     },
     {
-        "label": "Base",
-        "importPath": "app.database",
-        "description": "app.database",
+        "label": "WorkoutPlan",
+        "importPath": "app.modules.workout_plan.model",
+        "description": "app.modules.workout_plan.model",
         "isExtraImport": true,
-        "detail": "app.database",
+        "detail": "app.modules.workout_plan.model",
         "documentation": {}
     },
     {
-        "label": "get_db",
-        "importPath": "app.database",
-        "description": "app.database",
+        "label": "WorkoutPlan",
+        "importPath": "app.modules.workout_plan.model",
+        "description": "app.modules.workout_plan.model",
         "isExtraImport": true,
-        "detail": "app.database",
+        "detail": "app.modules.workout_plan.model",
         "documentation": {}
     },
     {
-        "label": "Usuario",
-        "importPath": "app.models.usuario",
-        "description": "app.models.usuario",
+        "label": "WorkoutDay",
+        "importPath": "app.modules.workout_day.model",
+        "description": "app.modules.workout_day.model",
         "isExtraImport": true,
-        "detail": "app.models.usuario",
+        "detail": "app.modules.workout_day.model",
         "documentation": {}
     },
     {
-        "label": "Usuario",
-        "importPath": "app.models.usuario",
-        "description": "app.models.usuario",
+        "label": "WorkoutDay",
+        "importPath": "app.modules.workout_day.model",
+        "description": "app.modules.workout_day.model",
         "isExtraImport": true,
-        "detail": "app.models.usuario",
+        "detail": "app.modules.workout_day.model",
         "documentation": {}
     },
     {
-        "label": "Usuario",
-        "importPath": "app.models.usuario",
-        "description": "app.models.usuario",
+        "label": "WeekDay",
+        "importPath": "app.modules.workout_day.model",
+        "description": "app.modules.workout_day.model",
         "isExtraImport": true,
-        "detail": "app.models.usuario",
+        "detail": "app.modules.workout_day.model",
         "documentation": {}
     },
     {
-        "label": "UsuarioCreate",
-        "importPath": "app.schemas.usuario",
-        "description": "app.schemas.usuario",
+        "label": "WorkoutDay",
+        "importPath": "app.modules.workout_day.model",
+        "description": "app.modules.workout_day.model",
         "isExtraImport": true,
-        "detail": "app.schemas.usuario",
+        "detail": "app.modules.workout_day.model",
         "documentation": {}
     },
     {
-        "label": "UsuarioResponse",
-        "importPath": "app.schemas.usuario",
-        "description": "app.schemas.usuario",
+        "label": "WorkoutExercise",
+        "importPath": "app.modules.workout_exercise.model",
+        "description": "app.modules.workout_exercise.model",
         "isExtraImport": true,
-        "detail": "app.schemas.usuario",
+        "detail": "app.modules.workout_exercise.model",
         "documentation": {}
     },
     {
-        "label": "LoginRequest",
-        "importPath": "app.schemas.usuario",
-        "description": "app.schemas.usuario",
+        "label": "WorkoutExercise",
+        "importPath": "app.modules.workout_exercise.model",
+        "description": "app.modules.workout_exercise.model",
         "isExtraImport": true,
-        "detail": "app.schemas.usuario",
+        "detail": "app.modules.workout_exercise.model",
         "documentation": {}
     },
     {
-        "label": "Token",
-        "importPath": "app.schemas.usuario",
-        "description": "app.schemas.usuario",
+        "label": "WorkoutExercise",
+        "importPath": "app.modules.workout_exercise.model",
+        "description": "app.modules.workout_exercise.model",
         "isExtraImport": true,
-        "detail": "app.schemas.usuario",
+        "detail": "app.modules.workout_exercise.model",
         "documentation": {}
     },
     {
-        "label": "UsuarioResponse",
-        "importPath": "app.schemas.usuario",
-        "description": "app.schemas.usuario",
+        "label": "WorkoutSession",
+        "importPath": "app.modules.workout_session.model",
+        "description": "app.modules.workout_session.model",
         "isExtraImport": true,
-        "detail": "app.schemas.usuario",
+        "detail": "app.modules.workout_session.model",
         "documentation": {}
     },
     {
-        "label": "hash_senha",
-        "importPath": "app.services.auth",
-        "description": "app.services.auth",
+        "label": "WorkoutSession",
+        "importPath": "app.modules.workout_session.model",
+        "description": "app.modules.workout_session.model",
         "isExtraImport": true,
-        "detail": "app.services.auth",
+        "detail": "app.modules.workout_session.model",
         "documentation": {}
     },
     {
-        "label": "verificar_senha",
-        "importPath": "app.services.auth",
-        "description": "app.services.auth",
+        "label": "WorkoutSession",
+        "importPath": "app.modules.workout_session.model",
+        "description": "app.modules.workout_session.model",
         "isExtraImport": true,
-        "detail": "app.services.auth",
-        "documentation": {}
-    },
-    {
-        "label": "criar_token",
-        "importPath": "app.services.auth",
-        "description": "app.services.auth",
-        "isExtraImport": true,
-        "detail": "app.services.auth",
+        "detail": "app.modules.workout_session.model",
         "documentation": {}
     },
     {
@@ -385,6 +738,46 @@
     },
     {
         "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
@@ -424,6 +817,22 @@
         "documentation": {}
     },
     {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
         "label": "CryptContext",
         "importPath": "passlib.context",
         "description": "passlib.context",
@@ -432,6 +841,542 @@
         "documentation": {}
     },
     {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "decodificar_token",
+        "importPath": "app.core.auth",
+        "description": "app.core.auth",
+        "isExtraImport": true,
+        "detail": "app.core.auth",
+        "documentation": {}
+    },
+    {
+        "label": "hash_senha",
+        "importPath": "app.core.auth",
+        "description": "app.core.auth",
+        "isExtraImport": true,
+        "detail": "app.core.auth",
+        "documentation": {}
+    },
+    {
+        "label": "verificar_senha",
+        "importPath": "app.core.auth",
+        "description": "app.core.auth",
+        "isExtraImport": true,
+        "detail": "app.core.auth",
+        "documentation": {}
+    },
+    {
+        "label": "criar_token",
+        "importPath": "app.core.auth",
+        "description": "app.core.auth",
+        "isExtraImport": true,
+        "detail": "app.core.auth",
+        "documentation": {}
+    },
+    {
+        "label": "hash_senha",
+        "importPath": "app.core.auth",
+        "description": "app.core.auth",
+        "isExtraImport": true,
+        "detail": "app.core.auth",
+        "documentation": {}
+    },
+    {
+        "label": "NullPool",
+        "importPath": "sqlalchemy.pool",
+        "description": "sqlalchemy.pool",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.pool",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "importPath": "app.modules.user.schema",
+        "description": "app.modules.user.schema",
+        "isExtraImport": true,
+        "detail": "app.modules.user.schema",
+        "documentation": {}
+    },
+    {
+        "label": "UsuarioResponse",
+        "importPath": "app.modules.user.schema",
+        "description": "app.modules.user.schema",
+        "isExtraImport": true,
+        "detail": "app.modules.user.schema",
+        "documentation": {}
+    },
+    {
+        "label": "LoginRequest",
+        "importPath": "app.modules.user.schema",
+        "description": "app.modules.user.schema",
+        "isExtraImport": true,
+        "detail": "app.modules.user.schema",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "importPath": "app.modules.user.schema",
+        "description": "app.modules.user.schema",
+        "isExtraImport": true,
+        "detail": "app.modules.user.schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "importPath": "app.modules.user.schema",
+        "description": "app.modules.user.schema",
+        "isExtraImport": true,
+        "detail": "app.modules.user.schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserUpdate",
+        "importPath": "app.modules.user.schema",
+        "description": "app.modules.user.schema",
+        "isExtraImport": true,
+        "detail": "app.modules.user.schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserResponse",
+        "importPath": "app.modules.user.schema",
+        "description": "app.modules.user.schema",
+        "isExtraImport": true,
+        "detail": "app.modules.user.schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "importPath": "app.modules.user.schema",
+        "description": "app.modules.user.schema",
+        "isExtraImport": true,
+        "detail": "app.modules.user.schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserUpdate",
+        "importPath": "app.modules.user.schema",
+        "description": "app.modules.user.schema",
+        "isExtraImport": true,
+        "detail": "app.modules.user.schema",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy.sql",
+        "description": "sqlalchemy.sql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy.sql",
+        "description": "sqlalchemy.sql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy.sql",
+        "description": "sqlalchemy.sql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql",
+        "documentation": {}
+    },
+    {
         "label": "func",
         "importPath": "sqlalchemy.sql",
         "description": "sqlalchemy.sql",
@@ -449,18 +1394,50 @@
     },
     {
         "label": "get_usuario_atual",
-        "importPath": "app.dependencies",
-        "description": "app.dependencies",
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
         "isExtraImport": true,
-        "detail": "app.dependencies",
+        "detail": "app.core.dependencies",
         "documentation": {}
     },
     {
         "label": "get_usuario_atual",
-        "importPath": "app.dependencies",
-        "description": "app.dependencies",
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
         "isExtraImport": true,
-        "detail": "app.dependencies",
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_usuario_atual",
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "isExtraImport": true,
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_usuario_atual",
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "isExtraImport": true,
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "get_usuario_atual",
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "isExtraImport": true,
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "service",
+        "importPath": "app.modules.user",
+        "description": "app.modules.user",
+        "isExtraImport": true,
+        "detail": "app.modules.user",
         "documentation": {}
     },
     {
@@ -488,75 +1465,229 @@
         "documentation": {}
     },
     {
-        "label": "List",
-        "importPath": "typing",
-        "description": "typing",
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
         "isExtraImport": true,
-        "detail": "typing",
+        "detail": "pydantic",
         "documentation": {}
     },
     {
-        "label": "Optional",
-        "importPath": "typing",
-        "description": "typing",
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
         "isExtraImport": true,
-        "detail": "typing",
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "enum",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "enum",
+        "description": "enum",
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "WorkoutDayCreate",
+        "importPath": "app.modules.workout_day.schema",
+        "description": "app.modules.workout_day.schema",
+        "isExtraImport": true,
+        "detail": "app.modules.workout_day.schema",
+        "documentation": {}
+    },
+    {
+        "label": "WorkoutDayUpdate",
+        "importPath": "app.modules.workout_day.schema",
+        "description": "app.modules.workout_day.schema",
+        "isExtraImport": true,
+        "detail": "app.modules.workout_day.schema",
+        "documentation": {}
+    },
+    {
+        "label": "WorkoutDayResponse",
+        "importPath": "app.modules.workout_day.schema",
+        "description": "app.modules.workout_day.schema",
+        "isExtraImport": true,
+        "detail": "app.modules.workout_day.schema",
+        "documentation": {}
+    },
+    {
+        "label": "WorkoutDayCreate",
+        "importPath": "app.modules.workout_day.schema",
+        "description": "app.modules.workout_day.schema",
+        "isExtraImport": true,
+        "detail": "app.modules.workout_day.schema",
+        "documentation": {}
+    },
+    {
+        "label": "WorkoutDayUpdate",
+        "importPath": "app.modules.workout_day.schema",
+        "description": "app.modules.workout_day.schema",
+        "isExtraImport": true,
+        "detail": "app.modules.workout_day.schema",
+        "documentation": {}
+    },
+    {
+        "label": "service",
+        "importPath": "app.modules.workout_day",
+        "description": "app.modules.workout_day",
+        "isExtraImport": true,
+        "detail": "app.modules.workout_day",
+        "documentation": {}
+    },
+    {
+        "label": "buscar",
+        "importPath": "app.modules.workout_plan.service",
+        "description": "app.modules.workout_plan.service",
+        "isExtraImport": true,
+        "detail": "app.modules.workout_plan.service",
+        "documentation": {}
+    },
+    {
+        "label": "WorkoutExerciseCreate",
+        "importPath": "app.modules.workout_exercise.schema",
+        "description": "app.modules.workout_exercise.schema",
+        "isExtraImport": true,
+        "detail": "app.modules.workout_exercise.schema",
+        "documentation": {}
+    },
+    {
+        "label": "WorkoutExerciseUpdate",
+        "importPath": "app.modules.workout_exercise.schema",
+        "description": "app.modules.workout_exercise.schema",
+        "isExtraImport": true,
+        "detail": "app.modules.workout_exercise.schema",
+        "documentation": {}
+    },
+    {
+        "label": "WorkoutExerciseResponse",
+        "importPath": "app.modules.workout_exercise.schema",
+        "description": "app.modules.workout_exercise.schema",
+        "isExtraImport": true,
+        "detail": "app.modules.workout_exercise.schema",
+        "documentation": {}
+    },
+    {
+        "label": "WorkoutExerciseCreate",
+        "importPath": "app.modules.workout_exercise.schema",
+        "description": "app.modules.workout_exercise.schema",
+        "isExtraImport": true,
+        "detail": "app.modules.workout_exercise.schema",
+        "documentation": {}
+    },
+    {
+        "label": "WorkoutExerciseUpdate",
+        "importPath": "app.modules.workout_exercise.schema",
+        "description": "app.modules.workout_exercise.schema",
+        "isExtraImport": true,
+        "detail": "app.modules.workout_exercise.schema",
+        "documentation": {}
+    },
+    {
+        "label": "service",
+        "importPath": "app.modules.workout_exercise",
+        "description": "app.modules.workout_exercise",
+        "isExtraImport": true,
+        "detail": "app.modules.workout_exercise",
         "documentation": {}
     },
     {
         "label": "WorkoutPlanCreate",
-        "importPath": "app.schemas.workout_plan",
-        "description": "app.schemas.workout_plan",
+        "importPath": "app.modules.workout_plan.schema",
+        "description": "app.modules.workout_plan.schema",
         "isExtraImport": true,
-        "detail": "app.schemas.workout_plan",
+        "detail": "app.modules.workout_plan.schema",
         "documentation": {}
     },
     {
         "label": "WorkoutPlanUpdate",
-        "importPath": "app.schemas.workout_plan",
-        "description": "app.schemas.workout_plan",
+        "importPath": "app.modules.workout_plan.schema",
+        "description": "app.modules.workout_plan.schema",
         "isExtraImport": true,
-        "detail": "app.schemas.workout_plan",
+        "detail": "app.modules.workout_plan.schema",
         "documentation": {}
     },
     {
         "label": "WorkoutPlanResponse",
-        "importPath": "app.schemas.workout_plan",
-        "description": "app.schemas.workout_plan",
+        "importPath": "app.modules.workout_plan.schema",
+        "description": "app.modules.workout_plan.schema",
         "isExtraImport": true,
-        "detail": "app.schemas.workout_plan",
+        "detail": "app.modules.workout_plan.schema",
         "documentation": {}
     },
     {
         "label": "WorkoutPlanCreate",
-        "importPath": "app.schemas.workout_plan",
-        "description": "app.schemas.workout_plan",
+        "importPath": "app.modules.workout_plan.schema",
+        "description": "app.modules.workout_plan.schema",
         "isExtraImport": true,
-        "detail": "app.schemas.workout_plan",
+        "detail": "app.modules.workout_plan.schema",
         "documentation": {}
     },
     {
         "label": "WorkoutPlanUpdate",
-        "importPath": "app.schemas.workout_plan",
-        "description": "app.schemas.workout_plan",
+        "importPath": "app.modules.workout_plan.schema",
+        "description": "app.modules.workout_plan.schema",
         "isExtraImport": true,
-        "detail": "app.schemas.workout_plan",
+        "detail": "app.modules.workout_plan.schema",
         "documentation": {}
     },
     {
-        "label": "workout_plan",
-        "importPath": "app.services",
-        "description": "app.services",
+        "label": "service",
+        "importPath": "app.modules.workout_plan",
+        "description": "app.modules.workout_plan",
         "isExtraImport": true,
-        "detail": "app.services",
+        "detail": "app.modules.workout_plan",
         "documentation": {}
     },
     {
-        "label": "WorkoutPlan",
-        "importPath": "app.models.workout_plan",
-        "description": "app.models.workout_plan",
+        "label": "WorkoutSessionCreate",
+        "importPath": "app.modules.workout_session.schema",
+        "description": "app.modules.workout_session.schema",
         "isExtraImport": true,
-        "detail": "app.models.workout_plan",
+        "detail": "app.modules.workout_session.schema",
+        "documentation": {}
+    },
+    {
+        "label": "WorkoutSessionResponse",
+        "importPath": "app.modules.workout_session.schema",
+        "description": "app.modules.workout_session.schema",
+        "isExtraImport": true,
+        "detail": "app.modules.workout_session.schema",
+        "documentation": {}
+    },
+    {
+        "label": "WorkoutSessionCreate",
+        "importPath": "app.modules.workout_session.schema",
+        "description": "app.modules.workout_session.schema",
+        "isExtraImport": true,
+        "detail": "app.modules.workout_session.schema",
+        "documentation": {}
+    },
+    {
+        "label": "service",
+        "importPath": "app.modules.workout_session",
+        "description": "app.modules.workout_session",
+        "isExtraImport": true,
+        "detail": "app.modules.workout_session",
         "documentation": {}
     },
     {
@@ -568,27 +1699,196 @@
         "documentation": {}
     },
     {
-        "label": "auth",
-        "importPath": "app.routers",
-        "description": "app.routers",
+        "label": "router",
+        "importPath": "app.modules.user.route",
+        "description": "app.modules.user.route",
         "isExtraImport": true,
-        "detail": "app.routers",
+        "detail": "app.modules.user.route",
         "documentation": {}
     },
     {
-        "label": "usuarios",
-        "importPath": "app.routers",
-        "description": "app.routers",
+        "label": "router",
+        "importPath": "app.modules.workout_plan.route",
+        "description": "app.modules.workout_plan.route",
         "isExtraImport": true,
-        "detail": "app.routers",
+        "detail": "app.modules.workout_plan.route",
         "documentation": {}
     },
     {
-        "label": "workout_plans",
-        "importPath": "app.routers",
-        "description": "app.routers",
+        "label": "router",
+        "importPath": "app.modules.workout_day.route",
+        "description": "app.modules.workout_day.route",
         "isExtraImport": true,
-        "detail": "app.routers",
+        "detail": "app.modules.workout_day.route",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.modules.workout_exercise.route",
+        "description": "app.modules.workout_exercise.route",
+        "isExtraImport": true,
+        "detail": "app.modules.workout_exercise.route",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.modules.workout_session.route",
+        "description": "app.modules.workout_session.route",
+        "isExtraImport": true,
+        "detail": "app.modules.workout_session.route",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.9f451b7a4ce8_initial_database_structure",
+        "description": "alembic.versions.9f451b7a4ce8_initial_database_structure",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('users',\n    sa.Column('id', sa.String(), nullable=False),\n    sa.Column('name', sa.String(), nullable=False),\n    sa.Column('email', sa.String(), nullable=False),\n    sa.Column('emailVerified', sa.Boolean(), nullable=True),\n    sa.Column('image', sa.String(), nullable=True),\n    sa.Column('createdAt', sa.DateTime(timezone=True), server_default=sa.text('now()'), nullable=True),",
+        "detail": "alembic.versions.9f451b7a4ce8_initial_database_structure",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.9f451b7a4ce8_initial_database_structure",
+        "description": "alembic.versions.9f451b7a4ce8_initial_database_structure",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('workout_session')\n    op.drop_table('workout_exercise')\n    op.drop_table('workout_day')\n    op.drop_table('workout_plan')\n    op.drop_index(op.f('ix_users_email'), table_name='users')\n    op.drop_table('users')\n    # ### end Alembic commands ###",
+        "detail": "alembic.versions.9f451b7a4ce8_initial_database_structure",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section, {}),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\ntarget_metadata = Base.metadata\n# target_metadata = None",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "target_metadata = Base.metadata\n# target_metadata = None\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\n# USA A CONEXÃO DIRETA para migrations (não a pooled)\nconfig.set_main_option(\"sqlalchemy.url\", settings.DATABASE_URL)\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "app.api.env",
+        "description": "app.api.env",
+        "peekOfCode": "def run_migrations_offline() -> None:\n   url = config.get_main_option(\"sqlalchemy.url\")\n   context.configure(\n      url=url,\n      target_metadata=target_metadata,\n      literal_binds=True,\n      dialect_opts={\"paramstyle\": \"named\"},\n   )\n   with context.begin_transaction():\n      context.run_migrations()",
+        "detail": "app.api.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "app.api.env",
+        "description": "app.api.env",
+        "peekOfCode": "def run_migrations_online() -> None:\n   connectable = engine_from_config(\n      config.get_section(config.config_ini_section, {}),\n      prefix=\"sqlalchemy.\",\n      poolclass=pool.NullPool,  # também NullPool aqui\n   )\n   with connectable.connect() as connection:\n      context.configure(\n         connection=connection,\n         target_metadata=target_metadata",
+        "detail": "app.api.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "app.api.env",
+        "description": "app.api.env",
+        "peekOfCode": "config = context.config\nif config.config_file_name is not None:\n   fileConfig(config.config_file_name)\ntarget_metadata = Base.metadata\n# USA A CONEXÃO DIRETA para migrations (não a pooled)\nconfig.set_main_option(\"sqlalchemy.url\", settings.DATABASE_URL)\ndef run_migrations_offline() -> None:\n   url = config.get_main_option(\"sqlalchemy.url\")\n   context.configure(\n      url=url,",
+        "detail": "app.api.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "app.api.env",
+        "description": "app.api.env",
+        "peekOfCode": "target_metadata = Base.metadata\n# USA A CONEXÃO DIRETA para migrations (não a pooled)\nconfig.set_main_option(\"sqlalchemy.url\", settings.DATABASE_URL)\ndef run_migrations_offline() -> None:\n   url = config.get_main_option(\"sqlalchemy.url\")\n   context.configure(\n      url=url,\n      target_metadata=target_metadata,\n      literal_binds=True,\n      dialect_opts={\"paramstyle\": \"named\"},",
+        "detail": "app.api.env",
+        "documentation": {}
+    },
+    {
+        "label": "hash_senha",
+        "kind": 2,
+        "importPath": "app.core.auth",
+        "description": "app.core.auth",
+        "peekOfCode": "def hash_senha(senha: str) -> str:\n   return pwd_context.hash(senha)\ndef verificar_senha(senha_plana: str, senha_hash: str) -> bool:\n   return pwd_context.verify(senha_plana, senha_hash)\ndef criar_token(dados: dict) -> str:\n   payload = dados.copy()\n   expira = datetime.utcnow() + timedelta(minutes=settings.ACCESS_TOKEN_EXPIRE_MINUTES)\n   payload.update({\"exp\": expira})\n   return jwt.encode(payload, settings.SECRET_KEY, algorithm=settings.ALGORITHM)\ndef decodificar_token(token: str) -> dict:",
+        "detail": "app.core.auth",
+        "documentation": {}
+    },
+    {
+        "label": "verificar_senha",
+        "kind": 2,
+        "importPath": "app.core.auth",
+        "description": "app.core.auth",
+        "peekOfCode": "def verificar_senha(senha_plana: str, senha_hash: str) -> bool:\n   return pwd_context.verify(senha_plana, senha_hash)\ndef criar_token(dados: dict) -> str:\n   payload = dados.copy()\n   expira = datetime.utcnow() + timedelta(minutes=settings.ACCESS_TOKEN_EXPIRE_MINUTES)\n   payload.update({\"exp\": expira})\n   return jwt.encode(payload, settings.SECRET_KEY, algorithm=settings.ALGORITHM)\ndef decodificar_token(token: str) -> dict:\n   try:\n      return jwt.decode(token, settings.SECRET_KEY, algorithms=[settings.ALGORITHM])",
+        "detail": "app.core.auth",
+        "documentation": {}
+    },
+    {
+        "label": "criar_token",
+        "kind": 2,
+        "importPath": "app.core.auth",
+        "description": "app.core.auth",
+        "peekOfCode": "def criar_token(dados: dict) -> str:\n   payload = dados.copy()\n   expira = datetime.utcnow() + timedelta(minutes=settings.ACCESS_TOKEN_EXPIRE_MINUTES)\n   payload.update({\"exp\": expira})\n   return jwt.encode(payload, settings.SECRET_KEY, algorithm=settings.ALGORITHM)\ndef decodificar_token(token: str) -> dict:\n   try:\n      return jwt.decode(token, settings.SECRET_KEY, algorithms=[settings.ALGORITHM])\n   except JWTError:\n      raise ValueError(\"Token inválido ou expirado\")",
+        "detail": "app.core.auth",
+        "documentation": {}
+    },
+    {
+        "label": "decodificar_token",
+        "kind": 2,
+        "importPath": "app.core.auth",
+        "description": "app.core.auth",
+        "peekOfCode": "def decodificar_token(token: str) -> dict:\n   try:\n      return jwt.decode(token, settings.SECRET_KEY, algorithms=[settings.ALGORITHM])\n   except JWTError:\n      raise ValueError(\"Token inválido ou expirado\")",
+        "detail": "app.core.auth",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "app.core.auth",
+        "description": "app.core.auth",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\ndef hash_senha(senha: str) -> str:\n   return pwd_context.hash(senha)\ndef verificar_senha(senha_plana: str, senha_hash: str) -> bool:\n   return pwd_context.verify(senha_plana, senha_hash)\ndef criar_token(dados: dict) -> str:\n   payload = dados.copy()\n   expira = datetime.utcnow() + timedelta(minutes=settings.ACCESS_TOKEN_EXPIRE_MINUTES)\n   payload.update({\"exp\": expira})\n   return jwt.encode(payload, settings.SECRET_KEY, algorithm=settings.ALGORITHM)",
+        "detail": "app.core.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_usuario_atual",
+        "kind": 2,
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "peekOfCode": "def get_usuario_atual(\n   token: str = Depends(oauth2_scheme),\n   db: Session = Depends(get_db)\n):\n   credenciais_exception = HTTPException(\n      status_code=status.HTTP_401_UNAUTHORIZED,\n      detail=\"Credenciais inválidas\",\n      headers={\"WWW-Authenticate\": \"Bearer\"},\n   )\n   try:",
+        "detail": "app.core.dependencies",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2_scheme",
+        "kind": 5,
+        "importPath": "app.core.dependencies",
+        "description": "app.core.dependencies",
+        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"/auth/login\")\ndef get_usuario_atual(\n   token: str = Depends(oauth2_scheme),\n   db: Session = Depends(get_db)\n):\n   credenciais_exception = HTTPException(\n      status_code=status.HTTP_401_UNAUTHORIZED,\n      detail=\"Credenciais inválidas\",\n      headers={\"WWW-Authenticate\": \"Bearer\"},\n   )",
+        "detail": "app.core.dependencies",
         "documentation": {}
     },
     {
@@ -596,7 +1896,7 @@
         "kind": 2,
         "importPath": "app.db.database",
         "description": "app.db.database",
-        "peekOfCode": "def get_db():\n   \"\"\"\n   Dependency que fornece uma sessão de banco por requisição.\n   O 'finally' garante que a sessão sempre será fechada.\n   \"\"\"\n   db = SessionLocal()\n   try:\n      yield db\n   finally:\n      db.close()",
+        "peekOfCode": "def get_db():\n   db = SessionLocal()\n   try:\n      yield db\n   finally:\n      db.close()",
         "detail": "app.db.database",
         "documentation": {}
     },
@@ -605,7 +1905,7 @@
         "kind": 5,
         "importPath": "app.db.database",
         "description": "app.db.database",
-        "peekOfCode": "engine = create_engine(settings.DATABASE_URL)\n# Fábrica de sessões — cada requisição abre e fecha uma sessão\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# Classe base para todos os models\nBase = declarative_base()\ndef get_db():\n   \"\"\"\n   Dependency que fornece uma sessão de banco por requisição.\n   O 'finally' garante que a sessão sempre será fechada.\n   \"\"\"",
+        "peekOfCode": "engine = create_engine(\n   settings.db_url,\n   poolclass=NullPool,       # desativa pool do SQLAlchemy (Neon cuida disso)\n   connect_args={\n      \"sslmode\": \"require\"  # Neon exige SSL obrigatoriamente\n   }\n)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():",
         "detail": "app.db.database",
         "documentation": {}
     },
@@ -614,7 +1914,7 @@
         "kind": 5,
         "importPath": "app.db.database",
         "description": "app.db.database",
-        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# Classe base para todos os models\nBase = declarative_base()\ndef get_db():\n   \"\"\"\n   Dependency que fornece uma sessão de banco por requisição.\n   O 'finally' garante que a sessão sempre será fechada.\n   \"\"\"\n   db = SessionLocal()\n   try:",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base()\ndef get_db():\n   db = SessionLocal()\n   try:\n      yield db\n   finally:\n      db.close()",
         "detail": "app.db.database",
         "documentation": {}
     },
@@ -623,7 +1923,7 @@
         "kind": 5,
         "importPath": "app.db.database",
         "description": "app.db.database",
-        "peekOfCode": "Base = declarative_base()\ndef get_db():\n   \"\"\"\n   Dependency que fornece uma sessão de banco por requisição.\n   O 'finally' garante que a sessão sempre será fechada.\n   \"\"\"\n   db = SessionLocal()\n   try:\n      yield db\n   finally:",
+        "peekOfCode": "Base = declarative_base()\ndef get_db():\n   db = SessionLocal()\n   try:\n      yield db\n   finally:\n      db.close()",
         "detail": "app.db.database",
         "documentation": {}
     },
@@ -632,7 +1932,7 @@
         "kind": 2,
         "importPath": "app.modules.auth.route",
         "description": "app.modules.auth.route",
-        "peekOfCode": "def registrar(dados: UsuarioCreate, db: Session = Depends(get_db)):\n    # Verifica se e-mail já existe\n    if db.query(Usuario).filter(Usuario.email == dados.email).first():\n        raise HTTPException(status_code=400, detail=\"E-mail já cadastrado\")\n    usuario = Usuario(\n        nome=dados.nome, email=dados.email, senha_hash=hash_senha(dados.senha)\n    )\n    db.add(usuario)\n    db.commit()\n    db.refresh(usuario)",
+        "peekOfCode": "def registrar(dados: UserCreate, db: Session = Depends(get_db)):\n    # Verifica se e-mail já existe\n    if db.query(User).filter(User.email == dados.email).first():\n        raise HTTPException(status_code=400, detail=\"E-mail já cadastrado\")\n    user = User(\n        nome=dados.nome, email=dados.email, senha_hash=hash_senha(dados.senha)\n    )\n    db.add(user)\n    db.commit()\n    db.refresh(user)",
         "detail": "app.modules.auth.route",
         "documentation": {}
     },
@@ -641,7 +1941,7 @@
         "kind": 2,
         "importPath": "app.modules.auth.route",
         "description": "app.modules.auth.route",
-        "peekOfCode": "def login(dados: LoginRequest, db: Session = Depends(get_db)):\n    usuario = db.query(Usuario).filter(Usuario.email == dados.email).first()\n    if not usuario or not verificar_senha(dados.senha, usuario.senha_hash):\n        raise HTTPException(\n            status_code=status.HTTP_401_UNAUTHORIZED,\n            detail=\"E-mail ou senha incorretos\",\n        )\n    token = criar_token({\"sub\": str(usuario.id)})\n    return {\"access_token\": token, \"token_type\": \"bearer\"}",
+        "peekOfCode": "def login(dados: LoginRequest, db: Session = Depends(get_db)):\n    user = db.query(User).filter(User.email == dados.email).first()\n    if not user or not verificar_senha(dados.senha, user.senha_hash):\n        raise HTTPException(\n            status_code=status.HTTP_401_UNAUTHORIZED,\n            detail=\"E-mail ou senha incorretos\",\n        )\n    token = criar_token({\"sub\": str(user.id)})\n    return {\"access_token\": token, \"token_type\": \"bearer\"}",
         "detail": "app.modules.auth.route",
         "documentation": {}
     },
@@ -650,7 +1950,7 @@
         "kind": 5,
         "importPath": "app.modules.auth.route",
         "description": "app.modules.auth.route",
-        "peekOfCode": "router = APIRouter(prefix=\"/auth\", tags=[\"Autenticação\"])\n@router.post(\"/registro\", response_model=UsuarioResponse, status_code=201)\ndef registrar(dados: UsuarioCreate, db: Session = Depends(get_db)):\n    # Verifica se e-mail já existe\n    if db.query(Usuario).filter(Usuario.email == dados.email).first():\n        raise HTTPException(status_code=400, detail=\"E-mail já cadastrado\")\n    usuario = Usuario(\n        nome=dados.nome, email=dados.email, senha_hash=hash_senha(dados.senha)\n    )\n    db.add(usuario)",
+        "peekOfCode": "router = APIRouter(prefix=\"/auth\", tags=[\"Autenticação\"])\n@router.post(\"/registro\", response_model=UsuarioResponse, status_code=201)\ndef registrar(dados: UserCreate, db: Session = Depends(get_db)):\n    # Verifica se e-mail já existe\n    if db.query(User).filter(User.email == dados.email).first():\n        raise HTTPException(status_code=400, detail=\"E-mail já cadastrado\")\n    user = User(\n        nome=dados.nome, email=dados.email, senha_hash=hash_senha(dados.senha)\n    )\n    db.add(user)",
         "detail": "app.modules.auth.route",
         "documentation": {}
     },
@@ -702,64 +2002,415 @@
     {
         "label": "User",
         "kind": 6,
-        "importPath": "app.modules.users.model",
-        "description": "app.modules.users.model",
-        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String(100), nullable=False)\n    email = Column(String(150), unique=True, index=True, nullable=False)\n    password_hash = Column(String(255), nullable=False)\n    active = Column(Boolean, default=True)\n    weightInGrams = Column(Integer)\n    heightInCentimeters = Column(Integer)\n    bodyFatPercentage = Column(Integer)",
-        "detail": "app.modules.users.model",
+        "importPath": "app.modules.user.model",
+        "description": "app.modules.user.model",
+        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id = Column(String, primary_key=True)\n    name = Column(String, nullable=False)\n    email = Column(String, unique=True, nullable=False, index=True)\n    senhaHash = Column(\n        String, nullable=True\n    )  # nullable pois login social não tem senha\n    emailVerified = Column(Boolean, default=False)\n    image = Column(String, nullable=True)",
+        "detail": "app.modules.user.model",
+        "documentation": {}
+    },
+    {
+        "label": "criar_usuario",
+        "kind": 2,
+        "importPath": "app.modules.user.route",
+        "description": "app.modules.user.route",
+        "peekOfCode": "def criar_usuario(dados: UserCreate, db: Session = Depends(get_db)):\n    return service.criar_usuario(db, dados)\n@router.get(\"/me\", response_model=UserResponse)\ndef meu_perfil(usuario: User = Depends(get_usuario_atual)):\n    return usuario\n@router.put(\"/me\", response_model=UserResponse)\ndef atualizar_perfil(\n    dados: UserUpdate,\n    db: Session = Depends(get_db),\n    usuario: User = Depends(get_usuario_atual),",
+        "detail": "app.modules.user.route",
         "documentation": {}
     },
     {
         "label": "meu_perfil",
         "kind": 2,
-        "importPath": "app.modules.users.route",
-        "description": "app.modules.users.route",
-        "peekOfCode": "def meu_perfil(usuario_atual: Usuario = Depends(get_usuario_atual)):\n    \"\"\"Retorna os dados do usuário autenticado.\"\"\"\n    return usuario_atual",
-        "detail": "app.modules.users.route",
+        "importPath": "app.modules.user.route",
+        "description": "app.modules.user.route",
+        "peekOfCode": "def meu_perfil(usuario: User = Depends(get_usuario_atual)):\n    return usuario\n@router.put(\"/me\", response_model=UserResponse)\ndef atualizar_perfil(\n    dados: UserUpdate,\n    db: Session = Depends(get_db),\n    usuario: User = Depends(get_usuario_atual),\n):\n    return service.atualizar_usuario(db, usuario.id, dados)\n@router.delete(\"/me\", status_code=204)",
+        "detail": "app.modules.user.route",
+        "documentation": {}
+    },
+    {
+        "label": "atualizar_perfil",
+        "kind": 2,
+        "importPath": "app.modules.user.route",
+        "description": "app.modules.user.route",
+        "peekOfCode": "def atualizar_perfil(\n    dados: UserUpdate,\n    db: Session = Depends(get_db),\n    usuario: User = Depends(get_usuario_atual),\n):\n    return service.atualizar_usuario(db, usuario.id, dados)\n@router.delete(\"/me\", status_code=204)\ndef deletar_conta(\n    db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)\n):",
+        "detail": "app.modules.user.route",
+        "documentation": {}
+    },
+    {
+        "label": "deletar_conta",
+        "kind": 2,
+        "importPath": "app.modules.user.route",
+        "description": "app.modules.user.route",
+        "peekOfCode": "def deletar_conta(\n    db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)\n):\n    service.deletar_usuario(db, usuario.id)",
+        "detail": "app.modules.user.route",
         "documentation": {}
     },
     {
         "label": "router",
         "kind": 5,
-        "importPath": "app.modules.users.route",
-        "description": "app.modules.users.route",
-        "peekOfCode": "router = APIRouter(prefix=\"/usuarios\", tags=[\"Usuários\"])\n@router.get(\"/me\", response_model=UsuarioResponse)\ndef meu_perfil(usuario_atual: Usuario = Depends(get_usuario_atual)):\n    \"\"\"Retorna os dados do usuário autenticado.\"\"\"\n    return usuario_atual",
-        "detail": "app.modules.users.route",
+        "importPath": "app.modules.user.route",
+        "description": "app.modules.user.route",
+        "peekOfCode": "router = APIRouter(prefix=\"/users\", tags=[\"Users\"])\n@router.post(\"/\", response_model=UserResponse, status_code=201)\ndef criar_usuario(dados: UserCreate, db: Session = Depends(get_db)):\n    return service.criar_usuario(db, dados)\n@router.get(\"/me\", response_model=UserResponse)\ndef meu_perfil(usuario: User = Depends(get_usuario_atual)):\n    return usuario\n@router.put(\"/me\", response_model=UserResponse)\ndef atualizar_perfil(\n    dados: UserUpdate,",
+        "detail": "app.modules.user.route",
         "documentation": {}
     },
     {
         "label": "UserCreate",
         "kind": 6,
-        "importPath": "app.modules.users.schema",
-        "description": "app.modules.users.schema",
-        "peekOfCode": "class UserCreate(BaseModel):\n    name: str\n    email: EmailStr\n    password: str\n# Dados retornados ao cliente (saída — nunca expõe a senha)\nclass UserResponse(BaseModel):\n    id: int\n    name: str\n    email: str\n    active: bool",
-        "detail": "app.modules.users.schema",
+        "importPath": "app.modules.user.schema",
+        "description": "app.modules.user.schema",
+        "peekOfCode": "class UserCreate(BaseModel):\n    id: str\n    name: str\n    email: EmailStr\n    senha: str\n    image: Optional[str] = None\n    weightInGrams: Optional[int] = None\n    heightInCentimeters: Optional[int] = None\n    age: Optional[int] = None\n    bodyFatPercentage: Optional[int] = None",
+        "detail": "app.modules.user.schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserUpdate",
+        "kind": 6,
+        "importPath": "app.modules.user.schema",
+        "description": "app.modules.user.schema",
+        "peekOfCode": "class UserUpdate(BaseModel):\n    name: Optional[str] = None\n    image: Optional[str] = None\n    weightInGrams: Optional[int] = None\n    heightInCentimeters: Optional[int] = None\n    age: Optional[int] = None\n    bodyFatPercentage: Optional[int] = None\n# Dados retornados ao cliente (saída — nunca expõe a senha)\nclass UserResponse(BaseModel):\n    id: str",
+        "detail": "app.modules.user.schema",
         "documentation": {}
     },
     {
         "label": "UserResponse",
         "kind": 6,
-        "importPath": "app.modules.users.schema",
-        "description": "app.modules.users.schema",
-        "peekOfCode": "class UserResponse(BaseModel):\n    id: int\n    name: str\n    email: str\n    active: bool\n    created_at: datetime\n    class Config:\n        from_attributes = True  # Permite converter model SQLAlchemy → Pydantic\n# Schema para login\nclass LoginRequest(BaseModel):",
-        "detail": "app.modules.users.schema",
+        "importPath": "app.modules.user.schema",
+        "description": "app.modules.user.schema",
+        "peekOfCode": "class UserResponse(BaseModel):\n    id: str\n    name: str\n    email: str\n    emailVerified: bool\n    image: Optional[str]\n    weightInGrams: Optional[int]\n    heightInCentimeters: Optional[int]\n    age: Optional[int]\n    bodyFatPercentage: Optional[int]",
+        "detail": "app.modules.user.schema",
         "documentation": {}
     },
     {
         "label": "LoginRequest",
         "kind": 6,
-        "importPath": "app.modules.users.schema",
-        "description": "app.modules.users.schema",
-        "peekOfCode": "class LoginRequest(BaseModel):\n    email: EmailStr\n    password: str\n# Token JWT retornado após login\nclass Token(BaseModel):\n    access_token: str\n    token_type: str = \"bearer\"",
-        "detail": "app.modules.users.schema",
+        "importPath": "app.modules.user.schema",
+        "description": "app.modules.user.schema",
+        "peekOfCode": "class LoginRequest(BaseModel):\n    email: EmailStr\n    senha: str\n# Token JWT retornado após login\nclass Token(BaseModel):\n    access_token: str\n    token_type: str = \"bearer\"",
+        "detail": "app.modules.user.schema",
         "documentation": {}
     },
     {
         "label": "Token",
         "kind": 6,
-        "importPath": "app.modules.users.schema",
-        "description": "app.modules.users.schema",
+        "importPath": "app.modules.user.schema",
+        "description": "app.modules.user.schema",
         "peekOfCode": "class Token(BaseModel):\n    access_token: str\n    token_type: str = \"bearer\"",
-        "detail": "app.modules.users.schema",
+        "detail": "app.modules.user.schema",
+        "documentation": {}
+    },
+    {
+        "label": "criar_usuario",
+        "kind": 2,
+        "importPath": "app.modules.user.service",
+        "description": "app.modules.user.service",
+        "peekOfCode": "def criar_usuario(db: Session, dados: UserCreate) -> User:\n    if db.query(User).filter(User.email == dados.email).first():\n        raise HTTPException(status_code=400, detail=\"E-mail já cadastrado\")\n    usuario = User(\n        id=dados.id if dados.id else str(uuid.uuid4()),\n        name=dados.name,\n        email=dados.email,\n        senhaHash=hash_senha(dados.senha),  # salva o hash da senha\n        image=dados.image,\n        weightInGrams=dados.weightInGrams,",
+        "detail": "app.modules.user.service",
+        "documentation": {}
+    },
+    {
+        "label": "buscar_por_id",
+        "kind": 2,
+        "importPath": "app.modules.user.service",
+        "description": "app.modules.user.service",
+        "peekOfCode": "def buscar_por_id(db: Session, user_id: str) -> User:\n    usuario = db.query(User).filter(User.id == user_id).first()\n    if not usuario:\n        raise HTTPException(status_code=404, detail=\"Usuário não encontrado\")\n    return usuario\ndef atualizar_usuario(db: Session, user_id: str, dados: UserUpdate) -> User:\n    usuario = buscar_por_id(db, user_id)\n    for campo, valor in dados.model_dump(exclude_unset=True).items():\n        setattr(usuario, campo, valor)\n    db.commit()",
+        "detail": "app.modules.user.service",
+        "documentation": {}
+    },
+    {
+        "label": "atualizar_usuario",
+        "kind": 2,
+        "importPath": "app.modules.user.service",
+        "description": "app.modules.user.service",
+        "peekOfCode": "def atualizar_usuario(db: Session, user_id: str, dados: UserUpdate) -> User:\n    usuario = buscar_por_id(db, user_id)\n    for campo, valor in dados.model_dump(exclude_unset=True).items():\n        setattr(usuario, campo, valor)\n    db.commit()\n    db.refresh(usuario)\n    return usuario\ndef deletar_usuario(db: Session, user_id: str) -> None:\n    usuario = buscar_por_id(db, user_id)\n    db.delete(usuario)",
+        "detail": "app.modules.user.service",
+        "documentation": {}
+    },
+    {
+        "label": "deletar_usuario",
+        "kind": 2,
+        "importPath": "app.modules.user.service",
+        "description": "app.modules.user.service",
+        "peekOfCode": "def deletar_usuario(db: Session, user_id: str) -> None:\n    usuario = buscar_por_id(db, user_id)\n    db.delete(usuario)\n    db.commit()",
+        "detail": "app.modules.user.service",
+        "documentation": {}
+    },
+    {
+        "label": "WeekDay",
+        "kind": 6,
+        "importPath": "app.modules.workout_day.model",
+        "description": "app.modules.workout_day.model",
+        "peekOfCode": "class WeekDay(str, enum.Enum):\n   SUNDAY    = \"SUNDAY\"\n   MONDAY    = \"MONDAY\"\n   TUESDAY   = \"TUESDAY\"\n   WEDNESDAY = \"WEDNESDAY\"\n   THURSDAY  = \"THURSDAY\"\n   FRIDAY    = \"FRIDAY\"\n   SATURDAY  = \"SATURDAY\"\nclass WorkoutDay(Base):\n   __tablename__ = \"workout_day\"",
+        "detail": "app.modules.workout_day.model",
+        "documentation": {}
+    },
+    {
+        "label": "WorkoutDay",
+        "kind": 6,
+        "importPath": "app.modules.workout_day.model",
+        "description": "app.modules.workout_day.model",
+        "peekOfCode": "class WorkoutDay(Base):\n   __tablename__ = \"workout_day\"\n   id                         = Column(String, primary_key=True)\n   name                       = Column(String, nullable=False)\n   workoutPlanId              = Column(String, ForeignKey(\"workout_plan.id\", ondelete=\"CASCADE\"), nullable=False)\n   isRest                     = Column(Boolean, default=False)\n   coverImageUrl              = Column(String, nullable=True)\n   weekDay                    = Column(Enum(WeekDay), nullable=False)\n   estimatedDurationInSeconds = Column(Integer, nullable=False)\n   createdAt                  = Column(DateTime(timezone=True), server_default=func.now())",
+        "detail": "app.modules.workout_day.model",
+        "documentation": {}
+    },
+    {
+        "label": "criar",
+        "kind": 2,
+        "importPath": "app.modules.workout_day.route",
+        "description": "app.modules.workout_day.route",
+        "peekOfCode": "def criar(plano_id: str, dados: WorkoutDayCreate, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.criar(db, plano_id, dados, usuario.id)\n@router.get(\"/\", response_model=List[WorkoutDayResponse])\ndef listar(plano_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.listar(db, plano_id, usuario.id)\n@router.get(\"/{day_id}\", response_model=WorkoutDayResponse)\ndef buscar(plano_id: str, day_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.buscar(db, day_id)\n@router.put(\"/{day_id}\", response_model=WorkoutDayResponse)\ndef atualizar(plano_id: str, day_id: str, dados: WorkoutDayUpdate, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):",
+        "detail": "app.modules.workout_day.route",
+        "documentation": {}
+    },
+    {
+        "label": "listar",
+        "kind": 2,
+        "importPath": "app.modules.workout_day.route",
+        "description": "app.modules.workout_day.route",
+        "peekOfCode": "def listar(plano_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.listar(db, plano_id, usuario.id)\n@router.get(\"/{day_id}\", response_model=WorkoutDayResponse)\ndef buscar(plano_id: str, day_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.buscar(db, day_id)\n@router.put(\"/{day_id}\", response_model=WorkoutDayResponse)\ndef atualizar(plano_id: str, day_id: str, dados: WorkoutDayUpdate, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.atualizar(db, day_id, dados)\n@router.delete(\"/{day_id}\", status_code=204)\ndef deletar(plano_id: str, day_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):",
+        "detail": "app.modules.workout_day.route",
+        "documentation": {}
+    },
+    {
+        "label": "buscar",
+        "kind": 2,
+        "importPath": "app.modules.workout_day.route",
+        "description": "app.modules.workout_day.route",
+        "peekOfCode": "def buscar(plano_id: str, day_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.buscar(db, day_id)\n@router.put(\"/{day_id}\", response_model=WorkoutDayResponse)\ndef atualizar(plano_id: str, day_id: str, dados: WorkoutDayUpdate, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.atualizar(db, day_id, dados)\n@router.delete(\"/{day_id}\", status_code=204)\ndef deletar(plano_id: str, day_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   service.deletar(db, day_id)",
+        "detail": "app.modules.workout_day.route",
+        "documentation": {}
+    },
+    {
+        "label": "atualizar",
+        "kind": 2,
+        "importPath": "app.modules.workout_day.route",
+        "description": "app.modules.workout_day.route",
+        "peekOfCode": "def atualizar(plano_id: str, day_id: str, dados: WorkoutDayUpdate, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.atualizar(db, day_id, dados)\n@router.delete(\"/{day_id}\", status_code=204)\ndef deletar(plano_id: str, day_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   service.deletar(db, day_id)",
+        "detail": "app.modules.workout_day.route",
+        "documentation": {}
+    },
+    {
+        "label": "deletar",
+        "kind": 2,
+        "importPath": "app.modules.workout_day.route",
+        "description": "app.modules.workout_day.route",
+        "peekOfCode": "def deletar(plano_id: str, day_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   service.deletar(db, day_id)",
+        "detail": "app.modules.workout_day.route",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.modules.workout_day.route",
+        "description": "app.modules.workout_day.route",
+        "peekOfCode": "router = APIRouter(prefix=\"/workout-plans/{plano_id}/days\", tags=[\"Workout Days\"])\n@router.post(\"/\", response_model=WorkoutDayResponse, status_code=201)\ndef criar(plano_id: str, dados: WorkoutDayCreate, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.criar(db, plano_id, dados, usuario.id)\n@router.get(\"/\", response_model=List[WorkoutDayResponse])\ndef listar(plano_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.listar(db, plano_id, usuario.id)\n@router.get(\"/{day_id}\", response_model=WorkoutDayResponse)\ndef buscar(plano_id: str, day_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.buscar(db, day_id)",
+        "detail": "app.modules.workout_day.route",
+        "documentation": {}
+    },
+    {
+        "label": "WorkoutDayCreate",
+        "kind": 6,
+        "importPath": "app.modules.workout_day.schema",
+        "description": "app.modules.workout_day.schema",
+        "peekOfCode": "class WorkoutDayCreate(BaseModel):\n   id: str\n   name: str\n   weekDay: WeekDay\n   estimatedDurationInSeconds: int\n   isRest: bool = False\n   coverImageUrl: Optional[str] = None\nclass WorkoutDayUpdate(BaseModel):\n   name: Optional[str] = None\n   weekDay: Optional[WeekDay] = None",
+        "detail": "app.modules.workout_day.schema",
+        "documentation": {}
+    },
+    {
+        "label": "WorkoutDayUpdate",
+        "kind": 6,
+        "importPath": "app.modules.workout_day.schema",
+        "description": "app.modules.workout_day.schema",
+        "peekOfCode": "class WorkoutDayUpdate(BaseModel):\n   name: Optional[str] = None\n   weekDay: Optional[WeekDay] = None\n   estimatedDurationInSeconds: Optional[int] = None\n   isRest: Optional[bool] = None\n   coverImageUrl: Optional[str] = None\nclass WorkoutDayResponse(BaseModel):\n   id: str\n   name: str\n   workoutPlanId: str",
+        "detail": "app.modules.workout_day.schema",
+        "documentation": {}
+    },
+    {
+        "label": "WorkoutDayResponse",
+        "kind": 6,
+        "importPath": "app.modules.workout_day.schema",
+        "description": "app.modules.workout_day.schema",
+        "peekOfCode": "class WorkoutDayResponse(BaseModel):\n   id: str\n   name: str\n   workoutPlanId: str\n   weekDay: WeekDay\n   estimatedDurationInSeconds: int\n   isRest: bool\n   coverImageUrl: Optional[str]\n   createdAt: datetime\n   class Config:",
+        "detail": "app.modules.workout_day.schema",
+        "documentation": {}
+    },
+    {
+        "label": "criar",
+        "kind": 2,
+        "importPath": "app.modules.workout_day.service",
+        "description": "app.modules.workout_day.service",
+        "peekOfCode": "def criar(db: Session, plano_id: str, dados: WorkoutDayCreate, user_id: str) -> WorkoutDay:\n   buscar_plano(db, plano_id, user_id)  # garante que o plano pertence ao usuário\n   day = WorkoutDay(**dados.model_dump(), workoutPlanId=plano_id)\n   db.add(day)\n   db.commit()\n   db.refresh(day)\n   return day\ndef listar(db: Session, plano_id: str, user_id: str) -> list[WorkoutDay]:\n   buscar_plano(db, plano_id, user_id)\n   return db.query(WorkoutDay).filter(WorkoutDay.workoutPlanId == plano_id).all()",
+        "detail": "app.modules.workout_day.service",
+        "documentation": {}
+    },
+    {
+        "label": "listar",
+        "kind": 2,
+        "importPath": "app.modules.workout_day.service",
+        "description": "app.modules.workout_day.service",
+        "peekOfCode": "def listar(db: Session, plano_id: str, user_id: str) -> list[WorkoutDay]:\n   buscar_plano(db, plano_id, user_id)\n   return db.query(WorkoutDay).filter(WorkoutDay.workoutPlanId == plano_id).all()\ndef buscar(db: Session, day_id: str) -> WorkoutDay:\n   day = db.query(WorkoutDay).filter(WorkoutDay.id == day_id).first()\n   if not day:\n      raise HTTPException(status_code=404, detail=\"Dia de treino não encontrado\")\n   return day\ndef atualizar(db: Session, day_id: str, dados: WorkoutDayUpdate) -> WorkoutDay:\n   day = buscar(db, day_id)",
+        "detail": "app.modules.workout_day.service",
+        "documentation": {}
+    },
+    {
+        "label": "buscar",
+        "kind": 2,
+        "importPath": "app.modules.workout_day.service",
+        "description": "app.modules.workout_day.service",
+        "peekOfCode": "def buscar(db: Session, day_id: str) -> WorkoutDay:\n   day = db.query(WorkoutDay).filter(WorkoutDay.id == day_id).first()\n   if not day:\n      raise HTTPException(status_code=404, detail=\"Dia de treino não encontrado\")\n   return day\ndef atualizar(db: Session, day_id: str, dados: WorkoutDayUpdate) -> WorkoutDay:\n   day = buscar(db, day_id)\n   for campo, valor in dados.model_dump(exclude_unset=True).items():\n      setattr(day, campo, valor)\n   db.commit()",
+        "detail": "app.modules.workout_day.service",
+        "documentation": {}
+    },
+    {
+        "label": "atualizar",
+        "kind": 2,
+        "importPath": "app.modules.workout_day.service",
+        "description": "app.modules.workout_day.service",
+        "peekOfCode": "def atualizar(db: Session, day_id: str, dados: WorkoutDayUpdate) -> WorkoutDay:\n   day = buscar(db, day_id)\n   for campo, valor in dados.model_dump(exclude_unset=True).items():\n      setattr(day, campo, valor)\n   db.commit()\n   db.refresh(day)\n   return day\ndef deletar(db: Session, day_id: str) -> None:\n   day = buscar(db, day_id)\n   db.delete(day)",
+        "detail": "app.modules.workout_day.service",
+        "documentation": {}
+    },
+    {
+        "label": "deletar",
+        "kind": 2,
+        "importPath": "app.modules.workout_day.service",
+        "description": "app.modules.workout_day.service",
+        "peekOfCode": "def deletar(db: Session, day_id: str) -> None:\n   day = buscar(db, day_id)\n   db.delete(day)\n   db.commit()",
+        "detail": "app.modules.workout_day.service",
+        "documentation": {}
+    },
+    {
+        "label": "WorkoutExercise",
+        "kind": 6,
+        "importPath": "app.modules.workout_exercise.model",
+        "description": "app.modules.workout_exercise.model",
+        "peekOfCode": "class WorkoutExercise(Base):\n   __tablename__ = \"workout_exercise\"\n   id                = Column(String, primary_key=True)  # ulid\n   name              = Column(String, nullable=False)\n   order             = Column(Integer, nullable=False)\n   workoutDayId      = Column(String, ForeignKey(\"workout_day.id\", ondelete=\"CASCADE\"), nullable=False)\n   sets              = Column(Integer, nullable=False)\n   reps              = Column(Integer, nullable=False)\n   restTimeInSeconds = Column(Integer, nullable=False)\n   createdAt         = Column(DateTime(timezone=True), server_default=func.now())",
+        "detail": "app.modules.workout_exercise.model",
+        "documentation": {}
+    },
+    {
+        "label": "criar",
+        "kind": 2,
+        "importPath": "app.modules.workout_exercise.route",
+        "description": "app.modules.workout_exercise.route",
+        "peekOfCode": "def criar(plano_id: str, day_id: str, dados: WorkoutExerciseCreate, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.criar(db, day_id, dados)\n@router.get(\"/\", response_model=List[WorkoutExerciseResponse])\ndef listar(plano_id: str, day_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.listar(db, day_id)\n@router.get(\"/{exercicio_id}\", response_model=WorkoutExerciseResponse)\ndef buscar(plano_id: str, day_id: str, exercicio_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.buscar(db, exercicio_id)\n@router.put(\"/{exercicio_id}\", response_model=WorkoutExerciseResponse)\ndef atualizar(plano_id: str, day_id: str, exercicio_id: str, dados: WorkoutExerciseUpdate, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):",
+        "detail": "app.modules.workout_exercise.route",
+        "documentation": {}
+    },
+    {
+        "label": "listar",
+        "kind": 2,
+        "importPath": "app.modules.workout_exercise.route",
+        "description": "app.modules.workout_exercise.route",
+        "peekOfCode": "def listar(plano_id: str, day_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.listar(db, day_id)\n@router.get(\"/{exercicio_id}\", response_model=WorkoutExerciseResponse)\ndef buscar(plano_id: str, day_id: str, exercicio_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.buscar(db, exercicio_id)\n@router.put(\"/{exercicio_id}\", response_model=WorkoutExerciseResponse)\ndef atualizar(plano_id: str, day_id: str, exercicio_id: str, dados: WorkoutExerciseUpdate, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.atualizar(db, exercicio_id, dados)\n@router.delete(\"/{exercicio_id}\", status_code=204)\ndef deletar(plano_id: str, day_id: str, exercicio_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):",
+        "detail": "app.modules.workout_exercise.route",
+        "documentation": {}
+    },
+    {
+        "label": "buscar",
+        "kind": 2,
+        "importPath": "app.modules.workout_exercise.route",
+        "description": "app.modules.workout_exercise.route",
+        "peekOfCode": "def buscar(plano_id: str, day_id: str, exercicio_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.buscar(db, exercicio_id)\n@router.put(\"/{exercicio_id}\", response_model=WorkoutExerciseResponse)\ndef atualizar(plano_id: str, day_id: str, exercicio_id: str, dados: WorkoutExerciseUpdate, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.atualizar(db, exercicio_id, dados)\n@router.delete(\"/{exercicio_id}\", status_code=204)\ndef deletar(plano_id: str, day_id: str, exercicio_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   service.deletar(db, exercicio_id)",
+        "detail": "app.modules.workout_exercise.route",
+        "documentation": {}
+    },
+    {
+        "label": "atualizar",
+        "kind": 2,
+        "importPath": "app.modules.workout_exercise.route",
+        "description": "app.modules.workout_exercise.route",
+        "peekOfCode": "def atualizar(plano_id: str, day_id: str, exercicio_id: str, dados: WorkoutExerciseUpdate, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.atualizar(db, exercicio_id, dados)\n@router.delete(\"/{exercicio_id}\", status_code=204)\ndef deletar(plano_id: str, day_id: str, exercicio_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   service.deletar(db, exercicio_id)",
+        "detail": "app.modules.workout_exercise.route",
+        "documentation": {}
+    },
+    {
+        "label": "deletar",
+        "kind": 2,
+        "importPath": "app.modules.workout_exercise.route",
+        "description": "app.modules.workout_exercise.route",
+        "peekOfCode": "def deletar(plano_id: str, day_id: str, exercicio_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   service.deletar(db, exercicio_id)",
+        "detail": "app.modules.workout_exercise.route",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.modules.workout_exercise.route",
+        "description": "app.modules.workout_exercise.route",
+        "peekOfCode": "router = APIRouter(\n   prefix=\"/workout-plans/{plano_id}/days/{day_id}/exercises\",\n   tags=[\"Workout Exercises\"]\n)\n@router.post(\"/\", response_model=WorkoutExerciseResponse, status_code=201)\ndef criar(plano_id: str, day_id: str, dados: WorkoutExerciseCreate, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.criar(db, day_id, dados)\n@router.get(\"/\", response_model=List[WorkoutExerciseResponse])\ndef listar(plano_id: str, day_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.listar(db, day_id)",
+        "detail": "app.modules.workout_exercise.route",
+        "documentation": {}
+    },
+    {
+        "label": "WorkoutExerciseCreate",
+        "kind": 6,
+        "importPath": "app.modules.workout_exercise.schema",
+        "description": "app.modules.workout_exercise.schema",
+        "peekOfCode": "class WorkoutExerciseCreate(BaseModel):\n   id: str  # ulid gerado no cliente ou no service\n   name: str\n   order: int\n   sets: int\n   reps: int\n   restTimeInSeconds: int\nclass WorkoutExerciseUpdate(BaseModel):\n   name: Optional[str] = None\n   order: Optional[int] = None",
+        "detail": "app.modules.workout_exercise.schema",
+        "documentation": {}
+    },
+    {
+        "label": "WorkoutExerciseUpdate",
+        "kind": 6,
+        "importPath": "app.modules.workout_exercise.schema",
+        "description": "app.modules.workout_exercise.schema",
+        "peekOfCode": "class WorkoutExerciseUpdate(BaseModel):\n   name: Optional[str] = None\n   order: Optional[int] = None\n   sets: Optional[int] = None\n   reps: Optional[int] = None\n   restTimeInSeconds: Optional[int] = None\nclass WorkoutExerciseResponse(BaseModel):\n   id: str\n   name: str\n   order: int",
+        "detail": "app.modules.workout_exercise.schema",
+        "documentation": {}
+    },
+    {
+        "label": "WorkoutExerciseResponse",
+        "kind": 6,
+        "importPath": "app.modules.workout_exercise.schema",
+        "description": "app.modules.workout_exercise.schema",
+        "peekOfCode": "class WorkoutExerciseResponse(BaseModel):\n   id: str\n   name: str\n   order: int\n   workoutDayId: str\n   sets: int\n   reps: int\n   restTimeInSeconds: int\n   createdAt: datetime\n   class Config:",
+        "detail": "app.modules.workout_exercise.schema",
+        "documentation": {}
+    },
+    {
+        "label": "criar",
+        "kind": 2,
+        "importPath": "app.modules.workout_exercise.service",
+        "description": "app.modules.workout_exercise.service",
+        "peekOfCode": "def criar(db: Session, day_id: str, dados: WorkoutExerciseCreate) -> WorkoutExercise:\n   exercicio = WorkoutExercise(**dados.model_dump(), workoutDayId=day_id)\n   db.add(exercicio)\n   db.commit()\n   db.refresh(exercicio)\n   return exercicio\ndef listar(db: Session, day_id: str) -> list[WorkoutExercise]:\n   return db.query(WorkoutExercise).filter(\n      WorkoutExercise.workoutDayId == day_id\n   ).order_by(WorkoutExercise.order).all()",
+        "detail": "app.modules.workout_exercise.service",
+        "documentation": {}
+    },
+    {
+        "label": "listar",
+        "kind": 2,
+        "importPath": "app.modules.workout_exercise.service",
+        "description": "app.modules.workout_exercise.service",
+        "peekOfCode": "def listar(db: Session, day_id: str) -> list[WorkoutExercise]:\n   return db.query(WorkoutExercise).filter(\n      WorkoutExercise.workoutDayId == day_id\n   ).order_by(WorkoutExercise.order).all()\ndef buscar(db: Session, exercicio_id: str) -> WorkoutExercise:\n   ex = db.query(WorkoutExercise).filter(WorkoutExercise.id == exercicio_id).first()\n   if not ex:\n      raise HTTPException(status_code=404, detail=\"Exercício não encontrado\")\n   return ex\ndef atualizar(db: Session, exercicio_id: str, dados: WorkoutExerciseUpdate) -> WorkoutExercise:",
+        "detail": "app.modules.workout_exercise.service",
+        "documentation": {}
+    },
+    {
+        "label": "buscar",
+        "kind": 2,
+        "importPath": "app.modules.workout_exercise.service",
+        "description": "app.modules.workout_exercise.service",
+        "peekOfCode": "def buscar(db: Session, exercicio_id: str) -> WorkoutExercise:\n   ex = db.query(WorkoutExercise).filter(WorkoutExercise.id == exercicio_id).first()\n   if not ex:\n      raise HTTPException(status_code=404, detail=\"Exercício não encontrado\")\n   return ex\ndef atualizar(db: Session, exercicio_id: str, dados: WorkoutExerciseUpdate) -> WorkoutExercise:\n   ex = buscar(db, exercicio_id)\n   for campo, valor in dados.model_dump(exclude_unset=True).items():\n      setattr(ex, campo, valor)\n   db.commit()",
+        "detail": "app.modules.workout_exercise.service",
+        "documentation": {}
+    },
+    {
+        "label": "atualizar",
+        "kind": 2,
+        "importPath": "app.modules.workout_exercise.service",
+        "description": "app.modules.workout_exercise.service",
+        "peekOfCode": "def atualizar(db: Session, exercicio_id: str, dados: WorkoutExerciseUpdate) -> WorkoutExercise:\n   ex = buscar(db, exercicio_id)\n   for campo, valor in dados.model_dump(exclude_unset=True).items():\n      setattr(ex, campo, valor)\n   db.commit()\n   db.refresh(ex)\n   return ex\ndef deletar(db: Session, exercicio_id: str) -> None:\n   ex = buscar(db, exercicio_id)\n   db.delete(ex)",
+        "detail": "app.modules.workout_exercise.service",
+        "documentation": {}
+    },
+    {
+        "label": "deletar",
+        "kind": 2,
+        "importPath": "app.modules.workout_exercise.service",
+        "description": "app.modules.workout_exercise.service",
+        "peekOfCode": "def deletar(db: Session, exercicio_id: str) -> None:\n   ex = buscar(db, exercicio_id)\n   db.delete(ex)\n   db.commit()",
+        "detail": "app.modules.workout_exercise.service",
         "documentation": {}
     },
     {
@@ -767,7 +2418,7 @@
         "kind": 6,
         "importPath": "app.modules.workout_plan.model",
         "description": "app.modules.workout_plan.model",
-        "peekOfCode": "class WorkoutPlan(Base):\n    __tablename__ = \"workout_plans\"\n    id = Column(Integer, primary_key=True, index=True)\n    titulo = Column(String(150), nullable=False)\n    descricao = Column(Text, nullable=True)\n    nivel = Column(String(50), nullable=False)  # iniciante, intermediário, avançado\n    duracao_semanas = Column(Integer, nullable=False)\n    criado_em = Column(DateTime(timezone=True), server_default=func.now())\n    atualizado_em = Column(DateTime(timezone=True), onupdate=func.now())\n    # Chave estrangeira ligando ao usuário criador",
+        "peekOfCode": "class WorkoutPlan(Base):\n    __tablename__ = \"workout_plan\"\n    id        = Column(String, primary_key=True)\n    name      = Column(String, nullable=False)\n    userId    = Column(String, ForeignKey(\"users.id\", ondelete=\"CASCADE\"), nullable=False)\n    isActive  = Column(Boolean, default=True)\n    createdAt = Column(DateTime(timezone=True), server_default=func.now())\n    updateAt  = Column(DateTime(timezone=True), onupdate=func.now())\n    user        = relationship(\"User\", back_populates=\"workoutPlans\")\n    workoutDays = relationship(\"WorkoutDay\", back_populates=\"workoutPlan\", cascade=\"all, delete\")",
         "detail": "app.modules.workout_plan.model",
         "documentation": {}
     },
@@ -776,7 +2427,7 @@
         "kind": 2,
         "importPath": "app.modules.workout_plan.route",
         "description": "app.modules.workout_plan.route",
-        "peekOfCode": "def criar(\n    dados: WorkoutPlanCreate,\n    db: Session = Depends(get_db),\n    usuario: Usuario = Depends(get_usuario_atual),\n):\n    return service.criar_workout_plan(db, dados, usuario.id)\n@router.get(\"/\", response_model=List[WorkoutPlanResponse])\ndef listar(\n    db: Session = Depends(get_db), usuario: Usuario = Depends(get_usuario_atual)\n):",
+        "peekOfCode": "def criar(dados: WorkoutPlanCreate, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n    return service.criar(db, dados, usuario.id)\n@router.get(\"/\", response_model=List[WorkoutPlanResponse])\ndef listar(db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n    return service.listar(db, usuario.id)\n@router.get(\"/{plano_id}\", response_model=WorkoutPlanResponse)\ndef buscar(plano_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n    return service.buscar(db, plano_id, usuario.id)\n@router.put(\"/{plano_id}\", response_model=WorkoutPlanResponse)\ndef atualizar(plano_id: str, dados: WorkoutPlanUpdate, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):",
         "detail": "app.modules.workout_plan.route",
         "documentation": {}
     },
@@ -785,7 +2436,7 @@
         "kind": 2,
         "importPath": "app.modules.workout_plan.route",
         "description": "app.modules.workout_plan.route",
-        "peekOfCode": "def listar(\n    db: Session = Depends(get_db), usuario: Usuario = Depends(get_usuario_atual)\n):\n    return service.listar_workout_plans(db, usuario.id)\n@router.get(\"/{plano_id}\", response_model=WorkoutPlanResponse)\ndef buscar(\n    plano_id: int,\n    db: Session = Depends(get_db),\n    usuario: Usuario = Depends(get_usuario_atual),\n):",
+        "peekOfCode": "def listar(db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n    return service.listar(db, usuario.id)\n@router.get(\"/{plano_id}\", response_model=WorkoutPlanResponse)\ndef buscar(plano_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n    return service.buscar(db, plano_id, usuario.id)\n@router.put(\"/{plano_id}\", response_model=WorkoutPlanResponse)\ndef atualizar(plano_id: str, dados: WorkoutPlanUpdate, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n    return service.atualizar(db, plano_id, dados, usuario.id)\n@router.delete(\"/{plano_id}\", status_code=204)\ndef deletar(plano_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):",
         "detail": "app.modules.workout_plan.route",
         "documentation": {}
     },
@@ -794,7 +2445,7 @@
         "kind": 2,
         "importPath": "app.modules.workout_plan.route",
         "description": "app.modules.workout_plan.route",
-        "peekOfCode": "def buscar(\n    plano_id: int,\n    db: Session = Depends(get_db),\n    usuario: Usuario = Depends(get_usuario_atual),\n):\n    plano = service.buscar_workout_plan(db, plano_id, usuario.id)\n    if not plano:\n        raise HTTPException(status_code=404, detail=\"Plano não encontrado\")\n    return plano\n@router.put(\"/{plano_id}\", response_model=WorkoutPlanResponse)",
+        "peekOfCode": "def buscar(plano_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n    return service.buscar(db, plano_id, usuario.id)\n@router.put(\"/{plano_id}\", response_model=WorkoutPlanResponse)\ndef atualizar(plano_id: str, dados: WorkoutPlanUpdate, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n    return service.atualizar(db, plano_id, dados, usuario.id)\n@router.delete(\"/{plano_id}\", status_code=204)\ndef deletar(plano_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n    service.deletar(db, plano_id, usuario.id)",
         "detail": "app.modules.workout_plan.route",
         "documentation": {}
     },
@@ -803,7 +2454,7 @@
         "kind": 2,
         "importPath": "app.modules.workout_plan.route",
         "description": "app.modules.workout_plan.route",
-        "peekOfCode": "def atualizar(\n    plano_id: int,\n    dados: WorkoutPlanUpdate,\n    db: Session = Depends(get_db),\n    usuario: Usuario = Depends(get_usuario_atual),\n):\n    plano = service.atualizar_workout_plan(db, plano_id, dados, usuario.id)\n    if not plano:\n        raise HTTPException(status_code=404, detail=\"Plano não encontrado\")\n    return plano",
+        "peekOfCode": "def atualizar(plano_id: str, dados: WorkoutPlanUpdate, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n    return service.atualizar(db, plano_id, dados, usuario.id)\n@router.delete(\"/{plano_id}\", status_code=204)\ndef deletar(plano_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n    service.deletar(db, plano_id, usuario.id)",
         "detail": "app.modules.workout_plan.route",
         "documentation": {}
     },
@@ -812,7 +2463,7 @@
         "kind": 2,
         "importPath": "app.modules.workout_plan.route",
         "description": "app.modules.workout_plan.route",
-        "peekOfCode": "def deletar(\n    plano_id: int,\n    db: Session = Depends(get_db),\n    usuario: Usuario = Depends(get_usuario_atual),\n):\n    if not service.deletar_workout_plan(db, plano_id, usuario.id):\n        raise HTTPException(status_code=404, detail=\"Plano não encontrado\")",
+        "peekOfCode": "def deletar(plano_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n    service.deletar(db, plano_id, usuario.id)",
         "detail": "app.modules.workout_plan.route",
         "documentation": {}
     },
@@ -821,7 +2472,7 @@
         "kind": 5,
         "importPath": "app.modules.workout_plan.route",
         "description": "app.modules.workout_plan.route",
-        "peekOfCode": "router = APIRouter(prefix=\"/workout-plans\", tags=[\"Workout Plans\"])\n@router.post(\"/\", response_model=WorkoutPlanResponse, status_code=201)\ndef criar(\n    dados: WorkoutPlanCreate,\n    db: Session = Depends(get_db),\n    usuario: Usuario = Depends(get_usuario_atual),\n):\n    return service.criar_workout_plan(db, dados, usuario.id)\n@router.get(\"/\", response_model=List[WorkoutPlanResponse])\ndef listar(",
+        "peekOfCode": "router = APIRouter(prefix=\"/workout-plans\", tags=[\"Workout Plans\"])\n@router.post(\"/\", response_model=WorkoutPlanResponse, status_code=201)\ndef criar(dados: WorkoutPlanCreate, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n    return service.criar(db, dados, usuario.id)\n@router.get(\"/\", response_model=List[WorkoutPlanResponse])\ndef listar(db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n    return service.listar(db, usuario.id)\n@router.get(\"/{plano_id}\", response_model=WorkoutPlanResponse)\ndef buscar(plano_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n    return service.buscar(db, plano_id, usuario.id)",
         "detail": "app.modules.workout_plan.route",
         "documentation": {}
     },
@@ -830,7 +2481,7 @@
         "kind": 6,
         "importPath": "app.modules.workout_plan.schema",
         "description": "app.modules.workout_plan.schema",
-        "peekOfCode": "class WorkoutPlanCreate(BaseModel):\n    titulo: str\n    descricao: Optional[str] = None\n    nivel: str\n    duracao_semanas: int\nclass WorkoutPlanUpdate(BaseModel):\n    titulo: Optional[str] = None\n    descricao: Optional[str] = None\n    nivel: Optional[str] = None\n    duracao_semanas: Optional[int] = None",
+        "peekOfCode": "class WorkoutPlanCreate(BaseModel):\n    id: str\n    name: str\nclass WorkoutPlanUpdate(BaseModel):\n    name: Optional[str] = None\n    isActive: Optional[bool] = None\nclass WorkoutPlanResponse(BaseModel):\n    id: str\n    name: str\n    userId: str",
         "detail": "app.modules.workout_plan.schema",
         "documentation": {}
     },
@@ -839,7 +2490,7 @@
         "kind": 6,
         "importPath": "app.modules.workout_plan.schema",
         "description": "app.modules.workout_plan.schema",
-        "peekOfCode": "class WorkoutPlanUpdate(BaseModel):\n    titulo: Optional[str] = None\n    descricao: Optional[str] = None\n    nivel: Optional[str] = None\n    duracao_semanas: Optional[int] = None\nclass WorkoutPlanResponse(BaseModel):\n    id: int\n    titulo: str\n    descricao: Optional[str]\n    nivel: str",
+        "peekOfCode": "class WorkoutPlanUpdate(BaseModel):\n    name: Optional[str] = None\n    isActive: Optional[bool] = None\nclass WorkoutPlanResponse(BaseModel):\n    id: str\n    name: str\n    userId: str\n    isActive: bool\n    createdAt: datetime\n    class Config:",
         "detail": "app.modules.workout_plan.schema",
         "documentation": {}
     },
@@ -848,53 +2499,143 @@
         "kind": 6,
         "importPath": "app.modules.workout_plan.schema",
         "description": "app.modules.workout_plan.schema",
-        "peekOfCode": "class WorkoutPlanResponse(BaseModel):\n    id: int\n    titulo: str\n    descricao: Optional[str]\n    nivel: str\n    duracao_semanas: int\n    usuario_id: int\n    criado_em: datetime\n    class Config:\n        from_attributes = True",
+        "peekOfCode": "class WorkoutPlanResponse(BaseModel):\n    id: str\n    name: str\n    userId: str\n    isActive: bool\n    createdAt: datetime\n    class Config:\n        from_attributes = True",
         "detail": "app.modules.workout_plan.schema",
         "documentation": {}
     },
     {
-        "label": "criar_workout_plan",
+        "label": "criar",
         "kind": 2,
         "importPath": "app.modules.workout_plan.service",
         "description": "app.modules.workout_plan.service",
-        "peekOfCode": "def criar_workout_plan(db: Session, dados: WorkoutPlanCreate, usuario_id: int):\n    plano = WorkoutPlan(**dados.model_dump(), usuario_id=usuario_id)\n    db.add(plano)\n    db.commit()\n    db.refresh(plano)\n    return plano\ndef listar_workout_plans(db: Session, usuario_id: int):\n    return db.query(WorkoutPlan).filter(WorkoutPlan.usuario_id == usuario_id).all()\ndef buscar_workout_plan(db: Session, plano_id: int, usuario_id: int):\n    return (",
+        "peekOfCode": "def criar(db: Session, dados: WorkoutPlanCreate, user_id: str) -> WorkoutPlan:\n    plano = WorkoutPlan(**dados.model_dump(), userId=user_id)\n    db.add(plano)\n    db.commit()\n    db.refresh(plano)\n    return plano\ndef listar(db: Session, user_id: str) -> list[WorkoutPlan]:\n    return db.query(WorkoutPlan).filter(WorkoutPlan.userId == user_id).all()\ndef buscar(db: Session, plano_id: str, user_id: str) -> WorkoutPlan:\n    plano = db.query(WorkoutPlan).filter(",
         "detail": "app.modules.workout_plan.service",
         "documentation": {}
     },
     {
-        "label": "listar_workout_plans",
+        "label": "listar",
         "kind": 2,
         "importPath": "app.modules.workout_plan.service",
         "description": "app.modules.workout_plan.service",
-        "peekOfCode": "def listar_workout_plans(db: Session, usuario_id: int):\n    return db.query(WorkoutPlan).filter(WorkoutPlan.usuario_id == usuario_id).all()\ndef buscar_workout_plan(db: Session, plano_id: int, usuario_id: int):\n    return (\n        db.query(WorkoutPlan)\n        .filter(WorkoutPlan.id == plano_id, WorkoutPlan.usuario_id == usuario_id)\n        .first()\n    )\ndef atualizar_workout_plan(\n    db: Session, plano_id: int, dados: WorkoutPlanUpdate, usuario_id: int",
+        "peekOfCode": "def listar(db: Session, user_id: str) -> list[WorkoutPlan]:\n    return db.query(WorkoutPlan).filter(WorkoutPlan.userId == user_id).all()\ndef buscar(db: Session, plano_id: str, user_id: str) -> WorkoutPlan:\n    plano = db.query(WorkoutPlan).filter(\n        WorkoutPlan.id == plano_id,\n        WorkoutPlan.userId == user_id\n    ).first()\n    if not plano:\n        raise HTTPException(status_code=404, detail=\"Plano não encontrado\")\n    return plano",
         "detail": "app.modules.workout_plan.service",
         "documentation": {}
     },
     {
-        "label": "buscar_workout_plan",
+        "label": "buscar",
         "kind": 2,
         "importPath": "app.modules.workout_plan.service",
         "description": "app.modules.workout_plan.service",
-        "peekOfCode": "def buscar_workout_plan(db: Session, plano_id: int, usuario_id: int):\n    return (\n        db.query(WorkoutPlan)\n        .filter(WorkoutPlan.id == plano_id, WorkoutPlan.usuario_id == usuario_id)\n        .first()\n    )\ndef atualizar_workout_plan(\n    db: Session, plano_id: int, dados: WorkoutPlanUpdate, usuario_id: int\n):\n    plano = buscar_workout_plan(db, plano_id, usuario_id)",
+        "peekOfCode": "def buscar(db: Session, plano_id: str, user_id: str) -> WorkoutPlan:\n    plano = db.query(WorkoutPlan).filter(\n        WorkoutPlan.id == plano_id,\n        WorkoutPlan.userId == user_id\n    ).first()\n    if not plano:\n        raise HTTPException(status_code=404, detail=\"Plano não encontrado\")\n    return plano\ndef atualizar(db: Session, plano_id: str, dados: WorkoutPlanUpdate, user_id: str) -> WorkoutPlan:\n    plano = buscar(db, plano_id, user_id)",
         "detail": "app.modules.workout_plan.service",
         "documentation": {}
     },
     {
-        "label": "atualizar_workout_plan",
+        "label": "atualizar",
         "kind": 2,
         "importPath": "app.modules.workout_plan.service",
         "description": "app.modules.workout_plan.service",
-        "peekOfCode": "def atualizar_workout_plan(\n    db: Session, plano_id: int, dados: WorkoutPlanUpdate, usuario_id: int\n):\n    plano = buscar_workout_plan(db, plano_id, usuario_id)\n    if not plano:\n        return None\n    for campo, valor in dados.model_dump(exclude_unset=True).items():\n        setattr(plano, campo, valor)\n    db.commit()\n    db.refresh(plano)",
+        "peekOfCode": "def atualizar(db: Session, plano_id: str, dados: WorkoutPlanUpdate, user_id: str) -> WorkoutPlan:\n    plano = buscar(db, plano_id, user_id)\n    for campo, valor in dados.model_dump(exclude_unset=True).items():\n        setattr(plano, campo, valor)\n    db.commit()\n    db.refresh(plano)\n    return plano\ndef deletar(db: Session, plano_id: str, user_id: str) -> None:\n    plano = buscar(db, plano_id, user_id)\n    db.delete(plano)",
         "detail": "app.modules.workout_plan.service",
         "documentation": {}
     },
     {
-        "label": "deletar_workout_plan",
+        "label": "deletar",
         "kind": 2,
         "importPath": "app.modules.workout_plan.service",
         "description": "app.modules.workout_plan.service",
-        "peekOfCode": "def deletar_workout_plan(db: Session, plano_id: int, usuario_id: int) -> bool:\n    plano = buscar_workout_plan(db, plano_id, usuario_id)\n    if not plano:\n        return False\n    db.delete(plano)\n    db.commit()\n    return True",
+        "peekOfCode": "def deletar(db: Session, plano_id: str, user_id: str) -> None:\n    plano = buscar(db, plano_id, user_id)\n    db.delete(plano)\n    db.commit()",
         "detail": "app.modules.workout_plan.service",
+        "documentation": {}
+    },
+    {
+        "label": "WorkoutSession",
+        "kind": 6,
+        "importPath": "app.modules.workout_session.model",
+        "description": "app.modules.workout_session.model",
+        "peekOfCode": "class WorkoutSession(Base):\n   __tablename__ = \"workout_session\"\n   id           = Column(String, primary_key=True)\n   workoutDayId = Column(String, ForeignKey(\"workout_day.id\", ondelete=\"CASCADE\"), nullable=False)\n   startedAt    = Column(DateTime(timezone=True), nullable=False)\n   completedAt  = Column(DateTime(timezone=True), nullable=False)\n   createdAt    = Column(DateTime(timezone=True), server_default=func.now())\n   updateAt     = Column(DateTime(timezone=True), onupdate=func.now())\n   workoutDay = relationship(\"WorkoutDay\", back_populates=\"sessions\")",
+        "detail": "app.modules.workout_session.model",
+        "documentation": {}
+    },
+    {
+        "label": "registrar",
+        "kind": 2,
+        "importPath": "app.modules.workout_session.route",
+        "description": "app.modules.workout_session.route",
+        "peekOfCode": "def registrar(plano_id: str, day_id: str, dados: WorkoutSessionCreate, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.registrar(db, day_id, dados)\n@router.get(\"/\", response_model=List[WorkoutSessionResponse])\ndef listar(plano_id: str, day_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.listar(db, day_id)\n@router.get(\"/{sessao_id}\", response_model=WorkoutSessionResponse)\ndef buscar(plano_id: str, day_id: str, sessao_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.buscar(db, sessao_id)",
+        "detail": "app.modules.workout_session.route",
+        "documentation": {}
+    },
+    {
+        "label": "listar",
+        "kind": 2,
+        "importPath": "app.modules.workout_session.route",
+        "description": "app.modules.workout_session.route",
+        "peekOfCode": "def listar(plano_id: str, day_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.listar(db, day_id)\n@router.get(\"/{sessao_id}\", response_model=WorkoutSessionResponse)\ndef buscar(plano_id: str, day_id: str, sessao_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.buscar(db, sessao_id)",
+        "detail": "app.modules.workout_session.route",
+        "documentation": {}
+    },
+    {
+        "label": "buscar",
+        "kind": 2,
+        "importPath": "app.modules.workout_session.route",
+        "description": "app.modules.workout_session.route",
+        "peekOfCode": "def buscar(plano_id: str, day_id: str, sessao_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.buscar(db, sessao_id)",
+        "detail": "app.modules.workout_session.route",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.modules.workout_session.route",
+        "description": "app.modules.workout_session.route",
+        "peekOfCode": "router = APIRouter(\n   prefix=\"/workout-plans/{plano_id}/days/{day_id}/sessions\",\n   tags=[\"Workout Sessions\"]\n)\n@router.post(\"/\", response_model=WorkoutSessionResponse, status_code=201)\ndef registrar(plano_id: str, day_id: str, dados: WorkoutSessionCreate, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.registrar(db, day_id, dados)\n@router.get(\"/\", response_model=List[WorkoutSessionResponse])\ndef listar(plano_id: str, day_id: str, db: Session = Depends(get_db), usuario: User = Depends(get_usuario_atual)):\n   return service.listar(db, day_id)",
+        "detail": "app.modules.workout_session.route",
+        "documentation": {}
+    },
+    {
+        "label": "WorkoutSessionCreate",
+        "kind": 6,
+        "importPath": "app.modules.workout_session.schema",
+        "description": "app.modules.workout_session.schema",
+        "peekOfCode": "class WorkoutSessionCreate(BaseModel):\n   id: str\n   startedAt: datetime\n   completedAt: datetime\nclass WorkoutSessionResponse(BaseModel):\n   id: str\n   workoutDayId: str\n   startedAt: datetime\n   completedAt: datetime\n   createdAt: datetime",
+        "detail": "app.modules.workout_session.schema",
+        "documentation": {}
+    },
+    {
+        "label": "WorkoutSessionResponse",
+        "kind": 6,
+        "importPath": "app.modules.workout_session.schema",
+        "description": "app.modules.workout_session.schema",
+        "peekOfCode": "class WorkoutSessionResponse(BaseModel):\n   id: str\n   workoutDayId: str\n   startedAt: datetime\n   completedAt: datetime\n   createdAt: datetime\n   class Config:\n      from_attributes = True",
+        "detail": "app.modules.workout_session.schema",
+        "documentation": {}
+    },
+    {
+        "label": "registrar",
+        "kind": 2,
+        "importPath": "app.modules.workout_session.service",
+        "description": "app.modules.workout_session.service",
+        "peekOfCode": "def registrar(db: Session, day_id: str, dados: WorkoutSessionCreate) -> WorkoutSession:\n   sessao = WorkoutSession(**dados.model_dump(), workoutDayId=day_id)\n   db.add(sessao)\n   db.commit()\n   db.refresh(sessao)\n   return sessao\ndef listar(db: Session, day_id: str) -> list[WorkoutSession]:\n   return db.query(WorkoutSession).filter(\n      WorkoutSession.workoutDayId == day_id\n   ).order_by(WorkoutSession.startedAt.desc()).all()",
+        "detail": "app.modules.workout_session.service",
+        "documentation": {}
+    },
+    {
+        "label": "listar",
+        "kind": 2,
+        "importPath": "app.modules.workout_session.service",
+        "description": "app.modules.workout_session.service",
+        "peekOfCode": "def listar(db: Session, day_id: str) -> list[WorkoutSession]:\n   return db.query(WorkoutSession).filter(\n      WorkoutSession.workoutDayId == day_id\n   ).order_by(WorkoutSession.startedAt.desc()).all()\ndef buscar(db: Session, sessao_id: str) -> WorkoutSession:\n   sessao = db.query(WorkoutSession).filter(WorkoutSession.id == sessao_id).first()\n   if not sessao:\n      raise HTTPException(status_code=404, detail=\"Sessão não encontrada\")\n   return sessao",
+        "detail": "app.modules.workout_session.service",
+        "documentation": {}
+    },
+    {
+        "label": "buscar",
+        "kind": 2,
+        "importPath": "app.modules.workout_session.service",
+        "description": "app.modules.workout_session.service",
+        "peekOfCode": "def buscar(db: Session, sessao_id: str) -> WorkoutSession:\n   sessao = db.query(WorkoutSession).filter(WorkoutSession.id == sessao_id).first()\n   if not sessao:\n      raise HTTPException(status_code=404, detail=\"Sessão não encontrada\")\n   return sessao",
+        "detail": "app.modules.workout_session.service",
         "documentation": {}
     },
     {
@@ -902,7 +2643,7 @@
         "kind": 6,
         "importPath": "app.config",
         "description": "app.config",
-        "peekOfCode": "class Settings(BaseSettings):\n   DATABASE_URL: str\n   SECRET_KEY: str\n   ALGORITHM: str = \"HS256\"\n   ACCESS_TOKEN_EXPIRE_MINUTES: int = 30\n   class Config:\n      env_file = \".env\"\nsettings = Settings()",
+        "peekOfCode": "class Settings(BaseSettings):\n   # Conexão direta (Alembic)\n   DATABASE_URL: str\n   # Conexão pooled (runtime) — se não informada, usa a direta\n   DATABASE_POOL_URL: Optional[str] = None\n   SECRET_KEY: str\n   ALGORITHM: str = \"HS256\"\n   ACCESS_TOKEN_EXPIRE_MINUTES: int = 30\n   @property\n   def db_url(self) -> str:",
         "detail": "app.config",
         "documentation": {}
     },
@@ -929,7 +2670,7 @@
         "kind": 5,
         "importPath": "app.main",
         "description": "app.main",
-        "peekOfCode": "app = FastAPI(\n    title=\"NextCoachAI API\",\n    description=\"API para gerenciamento de planos de treino\",\n    version=\"0.0.1\",\n)\n# Registra todos os routers\napp.include_router(auth.router)\napp.include_router(usuarios.router)\napp.include_router(workout_plans.router)\n@app.get(\"/\", tags=[\"Health\"])",
+        "peekOfCode": "app = FastAPI(\n    title=\"NextCoachAI API\",\n    description=\"API para gerenciamento de planos de treino\",\n    version=\"1.0.0\"\n)\napp.include_router(user_router)\napp.include_router(workout_plan_router)\napp.include_router(workout_day_router)\napp.include_router(workout_exercise_router)\napp.include_router(workout_session_router)",
         "detail": "app.main",
         "documentation": {}
     }

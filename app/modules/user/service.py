@@ -14,8 +14,8 @@ def criar_usuario(db: Session, dados: UserCreate) -> User:
         email=dados.email,
         senhaHash=hash_senha(dados.senha),  # salva o hash da senha
         image=dados.image,
-        weightInGrams=dados.weightInGrams,
-        heightInCentimeters=dados.heightInCentimeters,
+        weight=dados.weight,
+        height=dados.height,
         age=dados.age,
         bodyFatPercentage=dados.bodyFatPercentage,
     )

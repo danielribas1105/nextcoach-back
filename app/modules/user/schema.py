@@ -9,19 +9,19 @@ class UserCreate(BaseModel):
     email: EmailStr
     senha: str
     image: Optional[str] = None
-    weightInGrams: Optional[int] = None
-    heightInCentimeters: Optional[int] = None
+    weight: Optional[float] = None
+    height: Optional[float] = None
     age: Optional[int] = None
-    bodyFatPercentage: Optional[int] = None
+    bodyFatPercentage: Optional[float] = None
 
 
 class UserUpdate(BaseModel):
     name: Optional[str] = None
     image: Optional[str] = None
-    weightInGrams: Optional[int] = None
-    heightInCentimeters: Optional[int] = None
+    weight: Optional[float] = None
+    height: Optional[float] = None
     age: Optional[int] = None
-    bodyFatPercentage: Optional[int] = None
+    bodyFatPercentage: Optional[float] = None
 
 
 # Dados retornados ao cliente (saída — nunca expõe a senha)
@@ -31,10 +31,10 @@ class UserResponse(BaseModel):
     email: str
     emailVerified: bool
     image: Optional[str]
-    weightInGrams: Optional[int]
-    heightInCentimeters: Optional[int]
+    weight: Optional[float]
+    height: Optional[float]
     age: Optional[int]
-    bodyFatPercentage: Optional[int]
+    bodyFatPercentage: Optional[float]
     createdAt: datetime
 
     class Config:
